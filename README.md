@@ -9,6 +9,23 @@ oneAPI is a industry standard spec that enables hetrogenuous computing
 - letting you write once and support many accelerators. For more
 information, you can read up at https://oneapi.io/
 
+## Table of Contents
+1. [HPC](#HPC)
+2. [AI](#AI)
+3. [Others](#Others)
+4. [Visual](#Visual)
+5. [Tutorials](#Tutorials)
+6. [Machine Learning](#Machine Learning)
+7. [Libraries](#Libraries)
+8. [Papers](#Papers)
+9. [Blogs](#Blogs)
+10. [Videos](#Videos)
+11. [Announcements](#Announcements)
+12. [Events](#Events)
+13. [Communities](#Communities)
+14. [Books](#Books)
+15. [Contributions](#Contributions)
+
 ## Projects
 
 ### HPC
