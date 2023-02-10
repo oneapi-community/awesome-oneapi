@@ -14,8 +14,8 @@ information, you can read up at https://oneapi.io/
 2. [AI](#AI)
 3. [Others](#Others)
 4. [Visual](#Visual)
-5. [Tutorials](#Tutorials)
-6. [Machine Learning](#Machine-Learning)
+5. [Machine Learning](#Machine-Learning)
+6. [Tutorials](#Tutorials)
 7. [Libraries](#Libraries)
 8. [Papers](#Papers)
 9. [Blogs](#Blogs)
@@ -29,8 +29,8 @@ information, you can read up at https://oneapi.io/
 ## Projects
 
 ### HPC
-* [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
-* [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA SYCL and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program
+* [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
+* [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA SYCL and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program.
 * [Acceleration of oil &amp](https://github.com/menotti/oil_gas_fpga) -  gas applications on GPUs and FPGAs. The objective of this project is to use GPUs and FPGAs to accelerate applications in the oil and gas area.
 * [HPCToolKit](http://hpctoolkit.org/) - HPCToolkit is an open-source performance tool that is in some respects similar to VTune though it also works on Power and ARM architectures. It also works on NVIDIA and AMD GPUs. Our aim is to also use it for performance analysis of Intel GPUs with Intel’s OpenCL to our targets as a prelude to A0
 * [A Parallel Max-Miner Algorithm For An Efficient Association Rules Learning (ARL) And Knowledge Mining Using The Intel® oneAPI Toolkit](https://github.com/arthurratz/intel_max_miner_oneapi) - This project demonstrates the using of the Intel® oneAPI library to deliver a modern code in Data Parallel C++ implementing a Parallel Max-Miner algorithm to optimize the performance of the association rules learning (ARL) process
@@ -176,6 +176,11 @@ information, you can read up at https://oneapi.io/
 * [The Magic of Fractals](https://github.com/AbhiLegend/one-api-fractal-dpcpp) - In colloquial usage a fractal is "a rough or fragmented geometric shape that can be subdivided in parts each of which is (at least approximately) a reduced/size copy of the whole". The term was coined by Benoît Mandelbrot in 1975 and was derived from the Latin fractus meaning broken or fractured.
 * [Intel® oneAPI Rendering Toolkit introduction: GDC 2021 showcase](https://software.intel.com/oneapi/render-kit) - Develop with the Intel® Rendering Toolkit for high fidelity and high performance ray tracing applications. Improve your games with ray tracing experiences.
 
+## Machine Learning
+* [isolalert](https://github.com/cabelo/isolalert) - Project created to analyze the behavior of the population calculate the necessary distance between people to avoid contagion (COVID-19) and statistical processing of the number of people and vehicles in a given region.
+* [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
+* [ORM One Remote Monitor](https://github.com/cabelo/orm) - COVID-19 will change people's habits. We will use teaching and remote work (home office) more frequently schools and companies will need to measure student performance and employee commitment.
+
 ## Tutorials
 * [Pro TBB Book code samples ported to oneAPI](https://github.com/Apress/pro-TBB) - The latest book on Threading Building Blocks (TBB) was recently published by Apress. The book comes with code samples available on GitHub. This project intends to port some of the examples to oneAPI to take advantage of the new features of this promising heterogeneous programming model.
 * [oneAPI example](https://github.com/fgq1994/NLP-Tutorials/blob/master/transformer.py) - transformer example
@@ -191,10 +196,6 @@ information, you can read up at https://oneapi.io/
 * [Pearson’s Correlation Coefficient](https://github.com/prilcool/Intel-devmesh-codeproject-two) -  Linear Regression  with DPC++ We  Implement  two  Statistical Mathematical Algorithms such as Pearson’s Correlation Coefficient &amp Linear Regression  with DPC++  and  show you how to implement this algorithms in real life in sales and marketing  to  forecast Future sales based on advertising expenditure.
 * [Intel ONE API DPC++ Vector Multiplication](https://github.com/AbhiLegend/DPC-) - The vector-multiplication is a simple program that multiplies Three large vectors of integers and verifies the results. This program is implemented using C++ and Data Parallel C++ (DPC++) languages for Intel(R) CPU and accelerators.In this example you can learn how to use the most basic code in C
 
-## Machine Learning
-* [isolalert](https://github.com/cabelo/isolalert) - Project created to analyze the behavior of the population calculate the necessary distance between people to avoid contagion (COVID-19) and statistical processing of the number of people and vehicles in a given region.
-* [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
-* [ORM One Remote Monitor](https://github.com/cabelo/orm) - COVID-19 will change people's habits. We will use teaching and remote work (home office) more frequently schools and companies will need to measure student performance and employee commitment.
 
 ## Libraries
 * [oneDNN](https://github.com/oneapi-src/oneDNN) - oneAPI Deep Neural Network Library
