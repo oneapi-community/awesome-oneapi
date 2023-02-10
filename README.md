@@ -15,7 +15,7 @@ information, you can read up at https://oneapi.io/
 3. [Others](#Others)
 4. [Visual](#Visual)
 5. [Tutorials](#Tutorials)
-6. [Machine Learning](#"Machine Learning")
+6. [Machine Learning](#Machine-Learning)
 7. [Libraries](#Libraries)
 8. [Papers](#Papers)
 9. [Blogs](#Blogs)
