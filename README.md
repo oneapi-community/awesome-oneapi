@@ -12,6 +12,7 @@ information, you can read up at https://oneapi.io/
 ## Table of Contents
 1. [HPC](#HPC)
 2. [AI](#AI)
+    * [Machine Learning](#Machine-Learning)
 3. [Others](#Others)
 4. [Visual](#Visual)
 5. [Machine Learning](#Machine-Learning)
@@ -176,7 +177,7 @@ information, you can read up at https://oneapi.io/
 * [The Magic of Fractals](https://github.com/AbhiLegend/one-api-fractal-dpcpp) - In colloquial usage a fractal is "a rough or fragmented geometric shape that can be subdivided in parts each of which is (at least approximately) a reduced/size copy of the whole". The term was coined by Benoît Mandelbrot in 1975 and was derived from the Latin fractus meaning broken or fractured.
 * [Intel® oneAPI Rendering Toolkit introduction: GDC 2021 showcase](https://software.intel.com/oneapi/render-kit) - Develop with the Intel® Rendering Toolkit for high fidelity and high performance ray tracing applications. Improve your games with ray tracing experiences.
 
-## Machine Learning
+### Machine Learning
 * [isolalert](https://github.com/cabelo/isolalert) - Project created to analyze the behavior of the population calculate the necessary distance between people to avoid contagion (COVID-19) and statistical processing of the number of people and vehicles in a given region.
 * [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
 * [ORM One Remote Monitor](https://github.com/cabelo/orm) - COVID-19 will change people's habits. We will use teaching and remote work (home office) more frequently schools and companies will need to measure student performance and employee commitment.
