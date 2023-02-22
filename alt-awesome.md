@@ -11,7 +11,7 @@ information, you can read up at https://oneapi.io/
 
 ## Table of Contents
 
-1. [Medical and Healthcare](#Medical-and-Healthcare)
+1. [Medical and Life Sciences](#Medical-and-Life-Sciences)
 2. [STEM](#STEM)
 3. [Security](#Security)
 4. [Autonomous Systems](#Autonomous-Systems)
@@ -32,7 +32,7 @@ information, you can read up at https://oneapi.io/
 
 ## Projects
 
-### Medical and Healthcare
+### Medical and Life Sciences 
 
 * [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
 * [Using Intel Technologies](https://github.com/aiial/all-detection-system-for-magic-leap-1) -  Magic Leap 1 to detect Acute Lymphoblastic Leukemia (ALL) Lymphoblasts Combines Magic Leap's Spacial Computing technologies with Intel's oneAPI OpenVINO  Neural Compute Stick to provide real-time classification of Acute Lymphoblastic Leukemia Lymphoblasts in peripheral blood samples within a Mixed Reality environment.
