@@ -11,12 +11,12 @@ information, you can read up at https://oneapi.io/
 
 ## Table of Contents
 
-1. [Medical/Healthcare](#Medical/Healthcare)
+1. [Medical and Healthcare](#Medical-and-Healthcare)
 2. [STEM](#STEM)
 3. [Security](#Security)
 4. [Autonomous Systems](#Autonomous-Systems)
 5. [Chatbots](#Chatbots)
-6. [Tools & Development](#Tools-&-Development)
+6. [Tools & Development](#Tools-and-Development)
 7. [Tutorials](#Tutorials)
 8. [Libraries](#Libraries)
 9. [Data Science](#Data-Science)
@@ -32,7 +32,7 @@ information, you can read up at https://oneapi.io/
 
 ## Projects
 
-### Medical/Healthcare
+### Medical and Healthcare
 
 * [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
 * [Using Intel Technologies](https://github.com/aiial/all-detection-system-for-magic-leap-1) -  Magic Leap 1 to detect Acute Lymphoblastic Leukemia (ALL) Lymphoblasts Combines Magic Leap's Spacial Computing technologies with Intel's oneAPI OpenVINO  Neural Compute Stick to provide real-time classification of Acute Lymphoblastic Leukemia Lymphoblasts in peripheral blood samples within a Mixed Reality environment.
@@ -62,7 +62,7 @@ information, you can read up at https://oneapi.io/
 * [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
 * [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
 
-### Tools & Development
+### Tools and Development
 * [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA SYCL and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program.
 * [DREAMPlaceFPGA](https://github.com/rachelselinar/DREAMPlaceFPGA) - This work aims to accelerate the different stages involved in FPGA placement - global placement legalization and detailed placement using the Pytorch deep-learning toolkit. Placement in the FPGA design flow determines the physical locations of all the heterogeneous instances in the design.
 * [Accelerating SeqAn](https://github.com/seqan/seqan3) - This project targets specifically the acceleration of the pairwise alignment algorithms and pattern matching algorithms contained in the SeqAn library. 
