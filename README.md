@@ -10,23 +10,23 @@ oneAPI is a industry standard spec that enables hetrogenuous computing
 information, you can read up at https://oneapi.io/
 
 ## Table of Contents
-[SYCL][#SYCL]
+1. [SYCL][#SYCL]
 2. [AI](#AI)
     * [Machine Learning](#Machine-Learning)
-1. [HPC](#HPC)
-3. [Others](#Others)
-4. [Visual](#Visual)
-5. [Machine Learning](#Machine-Learning)
-6. [Tutorials](#Tutorials)
-7. [Libraries](#Libraries)
-8. [Papers](#Papers)
-9. [Blogs](#Blogs)
-10. [Videos](#Videos)
-11. [Announcements](#Announcements)
-12. [Events](#Events)
-13. [Communities](#Communities)
-14. [Books](#Books)
-15. [Contributions](#Contributions)
+3. [HPC](#HPC)
+4. [Others](#Others)
+5. [Visual](#Visual)
+6. [Machine Learning](#Machine-Learning)
+7. [Tutorials](#Tutorials)
+8. [Libraries](#Libraries)
+9. [Papers](#Papers)
+10. [Blogs](#Blogs)
+11. [Videos](#Videos)
+12. [Announcements](#Announcements)
+13. [Events](#Events)
+14. [Communities](#Communities)
+15. [Books](#Books)
+16. [Contributions](#Contributions)
 
 ## Projects
 
