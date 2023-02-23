@@ -10,7 +10,7 @@ oneAPI is a industry standard spec that enables hetrogenuous computing
 information, you can read up at https://oneapi.io/
 
 ## Table of Contents
-1. [SYCL][#SYCL]
+1. [SYCL](#SYCL)
 2. [AI](#AI)
     * [Machine Learning](#Machine-Learning)
 3. [HPC](#HPC)
