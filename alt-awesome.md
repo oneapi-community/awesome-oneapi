@@ -17,6 +17,9 @@ information, you can read up at https://oneapi.io/
 4. [Autonomous Systems](#Autonomous-Systems)
 5. [Chatbots](#Chatbots)
 6. [Tools & Development](#Tools-and-Development)
+7. [Energy](#Energy)
+8. [Financial Services](#Financial-Services)
+9. [Manufacturing](#Manufacturing)
 7. [Tutorials](#Tutorials)
 9. [Data Science](#Data-Science)
 
@@ -34,7 +37,6 @@ information, you can read up at https://oneapi.io/
 
 ### Mathematics and Science
 * [Grid](www.github.com/paboyle/Grid) - Lattice QCD particle physics code.  #investigate
-* [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
 * [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs 
 * [Phase field solvers using SYCL for microstructure evolution](https://github.com/ICME-India/MicroSim) - Phase field technique is used to simulate microstructure evolution during materials processing such as 3D printing and additive manufacturing apart from traditional manufacturing techniques like welding casting etc. These non-linear PDE solvers are compute intensive and also memory intensive. #investigate
@@ -69,7 +71,6 @@ information, you can read up at https://oneapi.io/
 
 * [Distributed k-Nearest Neighbors using Locality-Sensitive Hashing and SYCL](https://github.com/SC-SGS/Distributed_GPU_LSH_using_SYCL) - In the age of AI algorithms must efficiently cope with vast data sets. We propose a performance-portable implementation of Locality-Sensitive Hashing (LSH) an approximate k-nearest neighbors algorithm using different SYCL implementations—ComputeCpp hipSYCL DPC++—supporting multiple GPUs.
 * [Drift Detection for Edge IoT Applications](https://github.com/blackout-ai/Face_Aging_Concept_Drift) - This concept drift project is run on video and image datasets such that we can calculate an overall precision and standard error. The concept drift detection technique finds True positives and False negatives using real and virtual drift detection. 
-* [Exhibition Art - Shipping Cost Predictor](https://github.com/deepakjoshi2k/Machine-Learning-Exhibit-Art-Shipping-) - My project is the complete analysis of the data of a Shipping Company. The main aim is to predict the cost of shipping provided the required entries were given but along with the EDA it becomes much more than just the Cost Predictor.
 * [Novel Applications of Transformer Models in Data Interpretation and Visualization](https://github.com/andreicozma1/oneAPI-viz) - This project explores the possibilities of using attention-based transformer models to aid in tasks related to data visualization and interpretation through the use of various Intel oneAPI toolkits such as the DNN library oneAPI AI Kit as well as oneAPI Render Kit.
 * [RISK IDENTIFICATION IN PREDICTIVE ESTIMATION](https://github.com/QuanticTechnovations/OneAPI_RiskAnalyzer) - Significant business decisions is taken based on the outcome predicted by the ML model. Users get benefit from an unbiased statistically sound and rigorous re-validation of the prediction’s accuracy from an independent source. That is what the Predictive Risk Analyzer tool from Quantic aims to go.
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
@@ -98,13 +99,20 @@ information, you can read up at https://oneapi.io/
 * [Computer Graphics Introduction](https://gitlab.com/bkmgit/cgintro) - Ray tracing tutorial example
 * [Integral_DPCPP](https://github.com/norhidayahm/integral_dpcpp) - This project is modified from the integral project from the course "Fundamentals of Parallelism on Intel Architecture" by Dr. Andrey Vladimirov in Coursera. The codes are converted to C++ and DPC++. 
 * [dpcpp-tutorial](https://github.com/acanets/dpcpp-tutorial) - This is a collection of DPC++ sample programs that demonstrate the design analysis and optimization of DPC++ programs
-* [oneAPI_samples](https://github.com/Mrhuajie-wu/gw3_oneAPI_samples) - sample1:计算随机变量的数字特征，如单个变量的期望、方差，两个变量之间的协方差。同时实现两个变量之间的线性回归。sample2:卷积算法有很强的并行性，通过将每次核的矩阵乘法运算并行实现算法的并行化。sample3:展示数据在传输中以及计算中的具体情况。
 * [Tweet_SentimentAnalysis_ML](https://jupyter.oneapi.devcloud.intel.com/user/u78961/lab) - Build a binary classifier to categorize the tweets in the training data as a1. Disaster/Attack/Calamity with potential loss of Life and property2. Tweets unrelated to loss of life and property3. Create a function which can take a tweet as input and classify it 
 * [SolvingLinearEquations](https://github.com/LazyTigerLi/SolvingLinearEquations) - This project gives an example of solving linear equations by iterative method which is implemented using DPC++ language for Intel CPU and accelerators. However the calculation may not converge currently.
 * [Loop Unroll](https://github.com/shumona8/loopunrolldifferently) - Doing loop unroll using three variables
-* [Banking](https://github.com/prilcool/Intel-devmesh-codeproject-one) -  Financial Audits through parallel computing DPC++ ( Process Millions of records in seconds) Design scalable and flexible  parallel data processing and audit systems with Intel DPC++.   We show you how you can utilize DPC++  to  efficiently process millions of records in parallel in under 60 seconds . For Auditing interest  paid to each user based on the users dynamic account  balances . 
 * [Pearson’s Correlation Coefficient](https://github.com/prilcool/Intel-devmesh-codeproject-two) -  Linear Regression  with DPC++ We  Implement  two  Statistical Mathematical Algorithms such as Pearson’s Correlation Coefficient &amp Linear Regression  with DPC++  and  show you how to implement this algorithms in real life in sales and marketing  to  forecast Future sales based on advertising expenditure.
 * [Intel ONE API DPC++ Vector Multiplication](https://github.com/AbhiLegend/DPC-) - The vector-multiplication is a simple program that multiplies Three large vectors of integers and verifies the results. This program is implemented using C++ and Data Parallel C++ (DPC++) languages for Intel(R) CPU and accelerators.In this example you can learn how to use the most basic code in C
 * [Simple Neural Network Benchmark using oneAPI and CUDA](https://github.com/Goleys/oneAPI_NeuralNetwork_Research.git) - We will create a simple Neural Network using CUDA and DPC++. Then we will use oneAPI to test our code using an Intel base workstation and compare it with the performance of an NVIDIA GPU.
 
+## Energy
 
+* [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
+
+## Financial Services
+
+* [Banking](https://github.com/prilcool/Intel-devmesh-codeproject-one) -  Financial Audits through parallel computing DPC++ ( Process Millions of records in seconds) Design scalable and flexible  parallel data processing and audit systems with Intel DPC++.   We show you how you can utilize DPC++  to  efficiently process millions of records in parallel in under 60 seconds . For Auditing interest  paid to each user based on the users dynamic account  balances . 
+
+## Manufacturing
+* [Exhibition Art - Shipping Cost Predictor](https://github.com/deepakjoshi2k/Machine-Learning-Exhibit-Art-Shipping-) - My project is the complete analysis of the data of a Shipping Company. The main aim is to predict the cost of shipping provided the required entries were given but along with the EDA it becomes much more than just the Cost Predictor.
