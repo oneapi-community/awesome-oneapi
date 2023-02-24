@@ -12,22 +12,13 @@ information, you can read up at https://oneapi.io/
 ## Table of Contents
 
 1. [Medical and Life Sciences](#Medical-and-Life-Sciences)
-2. [STEM](#STEM)
+2. [Mathematics and Science](#Mathematics-and-Science)
 3. [Security](#Security)
 4. [Autonomous Systems](#Autonomous-Systems)
 5. [Chatbots](#Chatbots)
 6. [Tools & Development](#Tools-and-Development)
 7. [Tutorials](#Tutorials)
-8. [Libraries](#Libraries)
 9. [Data Science](#Data-Science)
-10. [Papers](#Papers)
-11. [Blogs](#Blogs)
-12. [Videos](#Videos)
-13. [Announcements](#Announcements)
-14. [Events](#Events)
-15. [Communities](#Communities)
-16. [Books](#Books)
-17. [Contributions](#Contributions)
 
 
 ## Projects
@@ -41,7 +32,7 @@ information, you can read up at https://oneapi.io/
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
 * [Using Intel Technologies](https://github.com/aiial/hias-all-oneapi-classifier) -  Oculus Rift to detect Acute Lymphoblastic Leukemia (ALL) Lymphoblasts Combines Oculus Rift's Virtual Reality technologies with Intel's oneAPI OpenVINO &amp; Neural Compute Stick to provide real-time classification of Acute Lymphoblastic Leukemia Lymphoblasts in peripheral blood samples within a Virtual Reality environment.
 
-### STEM
+### Mathematics and Science
 * [Grid](www.github.com/paboyle/Grid) - Lattice QCD particle physics code.  #investigate
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
@@ -117,50 +108,3 @@ information, you can read up at https://oneapi.io/
 * [Simple Neural Network Benchmark using oneAPI and CUDA](https://github.com/Goleys/oneAPI_NeuralNetwork_Research.git) - We will create a simple Neural Network using CUDA and DPC++. Then we will use oneAPI to test our code using an Intel base workstation and compare it with the performance of an NVIDIA GPU.
 
 
-## Libraries
-* [oneDNN](https://github.com/oneapi-src/oneDNN) - oneAPI Deep Neural Network Library
-* [oneDAL](https://github.com/oneapi-src/oneDAL) - oneAPI Data Analytics Library
-* [level zero](https://github.com/oneapi-src/level-zero) - oneAPI Level Zero Specification Headers and Loader
-* [oneDAL](https://github.com/oneapi-src/oneTBB) - oneAPI Threading Building Blocks
-* [oneCCL](https://github.com/oneapi-src/oneCCL) - oneAPI Collective Communications Library
-* [oneMKL](https://github.com/oneapi-src/oneMKL) - oneAPI Math Kernel Library
-
-## Papers 
-* [SUPRA-on-oneAPI](https://github.com/intel/supra-on-oneapi) - This paper shows the general process of migrating CUDA-based ultrasound imaging project to Intel oneAPI. we  migrated and optimized the generated DPC++ code  it can now run on Intel CPU integrated GPU(Gen9) Xe MAX GPU and Arria 10 FPGA. the B-mode imaging performance meet real-time requirement.
-* [Parallel Three-Way Quicksort Using Data Parallel C++ and Intel® oneAPI Toolkits](https://github.com/arthurratz/intel_parallel_stable_sort_oneapi) - A case-study of the classical three-way quicksort performance optimization using the revolutionary Intel® oneAPI HPC Toolkit
-
-## Blogs
-[oneAPI @ Devto](https://dev.to/oneapi) - oneAPI blogs
-
-## Videos
-[GPU Performance Portability @ CppCon 2022](https://www.youtube.com/watch?v=8Cs_uI-O51s) - GPU Performance Portability Using Standard C++ with SYCL - Hugh Delaney & Rod Burns - CppCon 2022
-[IWOCL 2021 - Intro to SYCL](https://www.youtube.com/watch?v=VByHaRjEQpg) - Introduction to SYCL from a session at IWOCL 2021.
-
-## Official Announcements
-
-## Events
-* [oneAPI Events](https://oneapi.io/events) - oneAPI events both past and future.
-
-## Community
-* [/r/sycl](https://www.reddit.com/r/sycl/) - SYCL subreddit
-* [/r/oneapi](https://www.reddit.com/r/oneapi/) - oneAPI subreddit
-* [Stackoverflow](https://stackoverflow.com/questions/tagged/intel-oneapi) - the latest questions on oneAPI on Stackoverflow
-
-## Books
-* [Data Parallel C++: Mastering DPC++ for Programming of Heterogeneous Systems using C++ and SYCL](https://www.amazon.com/Data-Parallel-Mastering-Programming-Heterogeneous-ebook/dp/B08MKYHJ6R?ref_=ast_author_dp) - Learn how to accelerate C++ programs using data parallelism.
-* [Pro TBB: C++ Parallel Programming with Threading Building Blocks](https://www.amazon.com/Pro-TBB-Parallel-Programming-Threading-ebook/dp/B07V5YFCMV?ref_=ast_author_dp) - This open access book is a modern guide for all C++ programmers to learn Threading Building Blocks (TBB). Written by TBB and parallel programming experts.
-
-## Contributions
-
-
-## Archive
-* [Fractal Tricorn Mandel Brot](https://github.com/ranjan1977i/Fractal.git) - Fractal implementation of Conjugate of MandelBrot
-* [stereo matching](https://github.com/silverfly1992/stereo-matching-dpc) - Stereo vision methods are widely used in photogrammetry automatic driving industrial inspection virtual reality and other fields. Stereo matching as a key step in stereo vision has a great influence on the accuracy and speed of measurement results. The heterogeneous acceleration technology base
-* [Rocket projection using Quadratics](https://github.com/prilcool/Intel-devmesh-codeproject-four) - Use Quadratics to simulate a  rocket launch with a known equation from previous test launch  and determine  maximum rocket altitude the time it will take to reach max height The time  it will take  the rocket splash down into the ocean . so  you can take the perfect pictures  timed to perfection.
-* [Cross-architecture high-order exhaustive epistasis detection on CPU and GPU devices](https://github.com/rjfnobre/crossarch-episdet) - DPC++ application for performing high-order epistasis detection searches targeting Intel DevCloud CPU and GPU nodes.
-* [oneMD](https://github.com/allisterb/oneMD) - Data-parallel molecular dynamics simulator for Intel oneAPI.
-* [Kick starting TensorFlow With Intel® AI Analytics Toolkit(Beta) Powered by oneAPI](https://github.com/ialimustufa/oneAPI) - Try your hands on Some amazing SOTA Models with Intel® one API in your browser without any installation;In this project I am covering 3 Models from Intel Model Zoo and evaluating them powered by Intel® oneAPI platform!
-* [NASA Frontier Development Lab:  Space Resources - Localization](http://moonbench.space/) - This project developed: (1) a virtual dataset designed to test automated localization algorithms on planetary surfaces such as the Moon or Mars where GPS is unavailable; (2) a neural network approach for absolute localization by matching orbital maps with surface perspective imagery.
-
-* [MixPose Live Yoga Stream](https://github.com/mixpose/) - MixPose is personalized AI fitness with real-time live stream yoga yoga for beginners friendly and weekly free yoga classes available.
-* [Fan Efficiency Particle Simulation](https://github.com/GuMiner/DPC-experiments) - This project simulates the efficiency of various fans to determine the best candidates for rapid prototyping (3D printing). 
