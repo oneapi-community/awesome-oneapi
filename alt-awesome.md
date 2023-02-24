@@ -28,6 +28,9 @@ information, you can read up at https://oneapi.io/
 
 ### Medical and Life Sciences 
 
+1. [test1](#test1)
+2. [test2](#test2)
+
 * [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
 * [Using Intel Technologies](https://github.com/aiial/all-detection-system-for-magic-leap-1) -  Magic Leap 1 to detect Acute Lymphoblastic Leukemia (ALL) Lymphoblasts Combines Magic Leap's Spacial Computing technologies with Intel's oneAPI OpenVINO  Neural Compute Stick to provide real-time classification of Acute Lymphoblastic Leukemia Lymphoblasts in peripheral blood samples within a Mixed Reality environment.
 * [Using oneAPI Intel NUC  NVIDIA Jetson Nano to detect Acute Lymphoblastic Leukemia](https://github.com/AMLResearchProject/ALL-Jetson-Nano-Classifier) - The Acute Lymphoblastic Leukemia Jetson Nano Classifier is a Convolutional Neural Network developed using Intel® oneAPI AI Analytics Toolkit Intel® Optimization for Tensorflow on an Intel® NUC NUC7i7BNH  to accelerate training and TensorRT for high performance inference on NVIDIA® Jetson Nano.
