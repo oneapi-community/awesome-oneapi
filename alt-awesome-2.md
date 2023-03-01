@@ -12,11 +12,11 @@ information, you can read up at https://oneapi.io/
 ## Table of Contents
 
 1. [AI - Machine Learning](#AI-\--Machine-Learning)
-2. [AI and Natural Language Processing](#AI-and-Natural-Language-Proessing)
-3. [AI and Computer Vision](#AI-and-Computer-Vision)
-4. [AI and Data Science](#AI-and-Data-Science)
-1. [Medical and Life Sciences](#Medical-and-Life-Sciences)
-2. [Mathematics and Science](#Mathematics-and-Science)
+2. [AI - Natural Language Processing](#AI-\--Natural-Language-Proessing)
+3. [AI - Computer Vision](#AI-\--Computer-Vision)
+4. [AI and Data Science](#AI-\-Data-Science)
+1. [Medical and Life Sciences](#Medical-\--Life-Sciences)
+2. [Mathematics and Science](#Mathematics-\--Science)
 3. [Security](#Security)
 4. [Autonomous Systems](#Autonomous-Systems)
 5. [Chatbots](#Chatbots)
@@ -36,20 +36,20 @@ information, you can read up at https://oneapi.io/
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 
 
-### AI and Natural Language Processing
+### AI - Natural Language Processing
 
 * [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
 * [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
 * [oneAPI example](https://github.com/fgq1994/NLP-Tutorials/blob/master/transformer.py) - transformer example
 
-### AI and Computer Vision
+### AI - Computer Vision
 
 * [HIAS TassAI Facial Recognition Agent](https://github.com/AIIAL/HIAS-TassAI-Facial-Recognition-Agent) - Security is an important issue for hospitals and medical centers to consider. Today's Facial Recognition can provide ways of automating security in the medical industry reducing staffing costs and making medical facilities safer for both patients and staff.
 * [Certiface Anti-Spoofing](https://github.com/cabelo/oneapi-antispoofing) - Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference. The system is capable of spotting fake faces and performing anti-face spoofing in face recognition systems.
 
-### AI and NL
+### AI - NL
 
-### AI and Data Science
+### AI - Data Science
 
 * [Fighting Novel Coronavirus COVID-19 with Data Science &amp](https://github.com/azeemx/fighting_covid19_with_ds_ml.git) -  Machine Learning. In December 2019 A novel Coronavirus was found in a seafood wholesale market located in Wuhan China. On 11 February 2020 WHO announced a name for the new coronavirus disease: COVID-19. And was recognised as a pandemic on 11 March 2020.
 
