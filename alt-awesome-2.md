@@ -11,7 +11,7 @@ information, you can read up at https://oneapi.io/
 
 ## Table of Contents
 
-1. [AI and Machine Learning](#AI-and-Machine-Learning)
+1. [AI - Machine Learning](#AI-\--Machine-Learning)
 2. [AI and Natural Language Processing](#AI-and-Natural-Language-Proessing)
 3. [AI and Computer Vision](#AI-and-Computer-Vision)
 4. [AI and Data Science](#AI-and-Data-Science)
@@ -30,7 +30,7 @@ information, you can read up at https://oneapi.io/
 
 ## Projects
 
-### AI and Machine Learning
+### AI - Machine Learning
 * [AccelerateDataMining](https://github.com/lkk688/DeepDataMiningLearning) - Accelerate data mining and deep learning applications via Intel onapi. Provide sample code and examples in SJSU CMPE255 Data Mining class (https://catalog.sjsu.edu/preview_course_nopop.php?catoid=12&ampcoid=58423) to demonstrate the importance of acceleration and use Intel oneAPI as one technological e
 * [Tweet_SentimentAnalysis_ML](https://jupyter.oneapi.devcloud.intel.com/user/u78961/lab) - Build a binary classifier to categorize the tweets in the training data as a1. Disaster/Attack/Calamity with potential loss of Life and property2. Tweets unrelated to loss of life and property3. Create a function which can take a tweet as input and classify it 
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
