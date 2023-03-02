@@ -13,18 +13,19 @@ information, you can read up at https://oneapi.io/
 
 1. [AI - Machine Learning](#AI-\--Machine-Learning)
 2. [AI - Natural Language Processing](#AI-\--Natural-Language-Proessing)
+2. [AI - Natural Language Processing Chatbots](#chatbots)
 3. [AI - Computer Vision](#AI-\--Computer-Vision)
 4. [AI Data Science](#AI-\-Data-Science)
-1. [Medical and Life Sciences](#Medical-and-Life-Sciences)
-2. [Mathematics and Science](#Mathematics-and-Science)
-3. [Security](#Security)
-4. [Autonomous Systems](#Autonomous-Systems)
-6. [Tools & Development](#Tools-and-Development)
-7. [Energy](#Energy)
-8. [Financial Services](#Financial-Services)
-9. [Manufacturing](#Manufacturing)
-7. [Tutorials](#Tutorials)
-9. [Data Science](#Data-Science)
+5. [Medical and Life Sciences](#Medical-and-Life-Sciences)
+6. [Mathematics and Science](#Mathematics-and-Science)
+7. [Security](#Security)
+8. [Autonomous Systems](#Autonomous-Systems)
+9. [Tools & Development](#Tools-and-Development)
+10. [Energy](#Energy)
+11. [Financial Services](#Financial-Services)
+12. [Manufacturing](#Manufacturing)
+13. [Tutorials](#Tutorials)
+14. [Data Science](#Data-Science)
 
 
 ## Projects
@@ -37,9 +38,11 @@ information, you can read up at https://oneapi.io/
 ### AI - Natural Language Processing
 #### Chatbots
 
-&emsp; * [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
+* [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
 
-&emsp; * [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
+* [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
+
+#### Others
 * [oneAPI example](https://github.com/fgq1994/NLP-Tutorials/blob/master/transformer.py) - transformer example
 
 ### AI - Computer Vision
