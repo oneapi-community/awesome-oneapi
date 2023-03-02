@@ -36,14 +36,8 @@ information, you can read up at https://oneapi.io/
 
 
 ### AI - Natural Language Processing
-#### Chatbots
-
 * [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
-
 * [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
-
-#### Others
-* [oneAPI example](https://github.com/fgq1994/NLP-Tutorials/blob/master/transformer.py) - transformer example
 
 ### AI - Computer Vision
 
