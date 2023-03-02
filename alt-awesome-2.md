@@ -14,12 +14,11 @@ information, you can read up at https://oneapi.io/
 1. [AI - Machine Learning](#AI-\--Machine-Learning)
 2. [AI - Natural Language Processing](#AI-\--Natural-Language-Proessing)
 3. [AI - Computer Vision](#AI-\--Computer-Vision)
-4. [AI and Data Science](#AI-\-Data-Science)
-1. [Medical and Life Sciences](#Medical-\--Life-Sciences)
-2. [Mathematics and Science](#Mathematics-\--Science)
+4. [AI Data Science](#AI-\-Data-Science)
+1. [Medical and Life Sciences](#Medical-and-Life-Sciences)
+2. [Mathematics and Science](#Mathematics-and-Science)
 3. [Security](#Security)
 4. [Autonomous Systems](#Autonomous-Systems)
-5. [Chatbots](#Chatbots)
 6. [Tools & Development](#Tools-and-Development)
 7. [Energy](#Energy)
 8. [Financial Services](#Financial-Services)
@@ -32,14 +31,14 @@ information, you can read up at https://oneapi.io/
 
 ### AI - Machine Learning
 * [AccelerateDataMining](https://github.com/lkk688/DeepDataMiningLearning) - Accelerate data mining and deep learning applications via Intel onapi. Provide sample code and examples in SJSU CMPE255 Data Mining class (https://catalog.sjsu.edu/preview_course_nopop.php?catoid=12&ampcoid=58423) to demonstrate the importance of acceleration and use Intel oneAPI as one technological e
-* [Tweet_SentimentAnalysis_ML](https://jupyter.oneapi.devcloud.intel.com/user/u78961/lab) - Build a binary classifier to categorize the tweets in the training data as a1. Disaster/Attack/Calamity with potential loss of Life and property2. Tweets unrelated to loss of life and property3. Create a function which can take a tweet as input and classify it 
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 
 
 ### AI - Natural Language Processing
+#### Chatbots
 
-* [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
-* [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
+	* [SiteMana](https://github.com/SiteManaApp) - Using oneAPI powered personalization engine to converts a website visitors into a buyers
+	* [Gavin AI](https://github.com/Gavin-Development) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) &amp; ShmarvDogg which aims to have Englsih human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer &amp; FNet architectures are being investigated for better scaling.
 * [oneAPI example](https://github.com/fgq1994/NLP-Tutorials/blob/master/transformer.py) - transformer example
 
 ### AI - Computer Vision
