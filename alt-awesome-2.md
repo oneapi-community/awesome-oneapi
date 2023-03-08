@@ -25,7 +25,6 @@ information, you can read up at https://oneapi.io/
 11. [Financial Services](#Financial-Services)
 12. [Manufacturing](#Manufacturing)
 13. [Tutorials](#Tutorials)
-14. [Data Science](#Data-Science)
 
 
 ## Projects
