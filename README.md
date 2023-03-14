@@ -58,6 +58,8 @@ information, you can read up at https://oneapi.io/
 
 ### Medical and Life Sciences 
 
+* [GROMACS](https://gromacs.org) A free and open-source software suite for high-performance molecular dynamics and output analysis.
+
 * [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
 * [MCsquare](https://gitlab.com/openmcsquare/MCsquare) - Fast Monte Carlo dose calculation algorithm for the simulation of PBS proton therapy.
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
