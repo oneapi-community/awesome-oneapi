@@ -32,7 +32,6 @@ information, you can read up at https://oneapi.io/
 ### AI - Machine Learning
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 
-
 ### AI - Natural Language Processing
 * [Gavin AI](https://github.com/Gavin-Development/GavinTraining) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) ShmarvDogg which aims to have English human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer FNet architectures are being investigated for better scaling.
 
@@ -45,13 +44,13 @@ information, you can read up at https://oneapi.io/
 ### AI - Data Science
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
 
+* [fastRAG](https://github.com/IntelLabs/fastRAG) - Build and explore efficient retrieval-augmented generative models and applications. It's main goal is to make retrieval augmented generation as efficient as possible through the use of state-of-the-art and efficient retrieval and generative models.
+
 * [HIAS TassAI Facial Recognition Agent](https://github.com/AIIAL/HIAS-TassAI-Facial-Recognition-Agent) - Security is an important issue for hospitals and medical centers to consider. Today's Facial Recognition can provide ways of automating security in the medical industry reducing staffing costs and making medical facilities safer for both patients and staff.
 
 * [Drift Detection for Edge IoT Applications](https://github.com/blackout-ai/Face_Aging_Concept_Drift) - This concept drift project is run on video and image datasets such that we can calculate an overall precision and standard error. The concept drift detection technique finds True positives and False negatives using real and virtual drift detection. 
-* [Bioinformatic-Algorithms](https://github.com/arte# Medical and Life Sciences 
 
 * [GROMACS](https://gromacs.org) A free and open-source software suite for high-performance molecular dynamics and output analysis.
-
 * [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
 
