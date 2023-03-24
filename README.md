@@ -22,9 +22,9 @@ information, you can read up at https://oneapi.io/
 8. [Autonomous Systems](#Autonomous-Systems)
 9. [Tools & Development](#Tools-and-Development)
 10. [Energy](#Energy)
-11. [Financial Services](#Financial-Services)
+<!-- 11. [Financial Services](#Financial-Services)
 12. [Manufacturing](#Manufacturing)
-13. [Tutorials](#Tutorials)
+13. [Tutorials](#Tutorials) -->
 
 
 ## Projects
@@ -35,7 +35,7 @@ information, you can read up at https://oneapi.io/
 ### AI - Natural Language Processing
 * [Gavin AI](https://github.com/Gavin-Development/GavinTraining) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) ShmarvDogg which aims to have English human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer FNet architectures are being investigated for better scaling.
 * [Language Identification](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/LanguageIdentification) (Python based) Trains a model to perform language identification using the Hugging Face Speechbrain library and CommonVoice dataset, and optimized with IPEX and INC.
-* [Census](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/Census)  (Python based) Use Intel® Distribution of Modin* to ingest and process U.S. census data from 1970 to 2010 in order to build a ridge regression based model to find the relation between education and the total income earned in the US.
+* [Census](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/Census)  (Python based) Use Intel® Distribution of Modin to ingest and process U.S. census data from 1970 to 2010 in order to build a ridge regression based model to find the relation between education and the total income earned in the US.
 
 
 ### AI - Computer Vision
@@ -80,7 +80,7 @@ information, you can read up at https://oneapi.io/
 
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 
-## Financial Services
+<!-- ## Financial Services -->
 
 
-## Manufacturing
+<!-- ## Manufacturing -->
