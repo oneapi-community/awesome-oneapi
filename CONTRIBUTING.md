@@ -18,7 +18,7 @@ Link to the github/gitlab/other:
 
 License:
 
-Short description on why you are proud of this project and why you think its awesome:
+Short description on what makes this project interesting.
 
 
 
