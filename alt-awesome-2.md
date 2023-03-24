@@ -12,11 +12,11 @@ information, you can read up at https://oneapi.io/
 ## Table of Contents
 
 1. AI
-*    [Machine Learning](#AI-\--Machine-Learning)
-*    [Natural Language Processing](#AI-\--Natural-Language-Proessing)
-*    [Natural Language Processing Chatbots](#chatbots)
-*    [Computer Vision](#AI-\--Computer-Vision)
-*    [Data Science](#AI-\-Data-Science)
+    * [Machine Learning](#AI-\--Machine-Learning)
+    * [Natural Language Processing](#AI-\--Natural-Language-Proessing)
+    * [Natural Language Processing Chatbots](#chatbots)
+    * [Computer Vision](#AI-\--Computer-Vision)
+    * [Data Science](#AI-\-Data-Science)
 2. [Medical and Life Sciences](#Medical-and-Life-Sciences)
 3. [Mathematics and Science](#Mathematics-and-Science)
 4. [Security](#Security)
