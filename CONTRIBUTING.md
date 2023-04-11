@@ -12,15 +12,13 @@ Maintainer:
 
 Description of the project:
 
-What version of oneAPI it supports:
+What version of oneAPI it supports (if applicable):
+
+What oneAPI components it uses:
 
 Link to the github/gitlab/other:
 
 License:
-
-Short description on what makes this project interesting.
-
-
 
 ## What happens after I submit?
 
