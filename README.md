@@ -11,18 +11,6 @@ information, you can read up at https://oneapi.io/
 
 ## Table of Contents
 
-<<<<<<< HEAD
-3. [AI - Computer Vision](#AI-\--Computer-Vision)
-4. [AI - Data Science](#AI-\-Data-Science)
-1. [AI - Machine Learning](#AI-\--Machine-Learning)
-2. [AI - Natural Language Processing](#AI-\--Natural-Language-Processing)
-3. [AI - Toolkits](#AI-\--Toolkits)
-8. [Autonomous Systems](#Autonomous-Systems)
-9. [Data Visualization and Rendering](#Data-Visualization-and-Rendering)
-10. [Energy](#Energy)
-6. [Mathematics and Science](#Mathematics-and-Science)
-9. [Tools & Development](#Tools-and-Development)
-=======
 1. [AI - Computer Vision](#AI-\--Computer-Vision)
 2. [AI - Data Science](#AI-\-Data-Science)
 3. [AI - Machine Learning](#AI-\--Machine-Learning)
@@ -33,7 +21,6 @@ information, you can read up at https://oneapi.io/
 8. [Energy](#Energy)
 9. [Mathematics and Science](#Mathematics-and-Science)
 10. [Tools & Development](#Tools-and-Development)
->>>>>>> 156c344 (Update README.md)
 <!-- 11. [Financial Services](#Financial-Services)
 12. [Manufacturing](#Manufacturing)
 13. [Tutorials](#Tutorials) -->
@@ -114,16 +101,6 @@ information, you can read up at https://oneapi.io/
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 
 ### Mathematics and Science
-<<<<<<< HEAD
-* [Direction Field Visualization with Python](https://github.com/olutosinbanjo/direction_field) - This project demonstrates the visualization of a direction field with Python using the differential equation of a falling object as a case study.  The effectiveness of Heterogeneous Computing is also shown by exploring optimized libraries added functionalities in Intel® Distribution for Python.
-* [ACTS GPU Ramp](https://github.com/acts-project/traccc) - D Projects
-* [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
-* [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
-* [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
-* [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
-* [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
-* [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs 
-=======
 * [ACTS GPU Ramp](https://github.com/acts-project/traccc) - D Projects
 * [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
@@ -132,7 +109,6 @@ information, you can read up at https://oneapi.io/
 * [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
 * [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs 
 * [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
->>>>>>> 156c344 (Update README.md)
 
 ### Tools and Development
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
