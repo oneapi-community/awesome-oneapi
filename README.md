@@ -32,6 +32,7 @@ information, you can read up at https://oneapi.io/
 ### AI - Computer Vision
 * [Certiface Anti-Spoofing](https://github.com/cabelo/oneapi-antispoofing) - Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference. The system is capable of spotting fake faces and performing anti-face spoofing in face recognition systems.
 * [LidarObjectDetection-PointPillars](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/LidarObjectDetection-PointPillars) (C++ based, requires AI toolkit and OpenVINO). demonstrates how to perform 3D object detection and classification using input data (point cloud) from a LIDAR sensor.
+* [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - This repository contains Stable Diffusion models trained from scratch and will be continuously updated with new checkpoints. 
 
 
 ### AI - Data Science
@@ -95,6 +96,7 @@ information, you can read up at https://oneapi.io/
 
 ### Data Visualization and Rendering
 * [Substrate](https://github.com/seelabutk/substrate) - A toolset to help developers create and deploy cloud-based VaaS services (Visualization as a Service). Deployment targets include any platforms capable of running Docker Swarm, such as Amazon AWS, institutional clusters and even personal servers. Native for Python environment (pip installable).
+* [Blender](https://github.com/blender) - Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline-modeling, rigging, animation, simulation, rendering, compositing, motion tracking and video editing.
 
 ### Energy
 
