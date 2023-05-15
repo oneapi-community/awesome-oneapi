@@ -21,40 +21,44 @@ information, you can read up at https://oneapi.io/
 8. [Energy](#Energy)
 9. [Mathematics and Science](#Mathematics-and-Science)
 10. [Tools & Development](#Tools-and-Development)
-<!-- 11. [Financial Services](#Financial-Services)
+<!-- 11. [Financial Services](#Financial-Services) -->
 12. [Manufacturing](#Manufacturing)
-13. [Tutorials](#Tutorials) -->
-
-
-## Projects
+13. [Tutorials](#Tutorials)
 
 
 ### AI - Computer Vision
+
 * [Certiface Anti-Spoofing](https://github.com/cabelo/oneapi-antispoofing) - Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference. The system is capable of spotting fake faces and performing anti-face spoofing in face recognition systems.
 * [LidarObjectDetection-PointPillars](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/LidarObjectDetection-PointPillars) (C++ based, requires AI toolkit and OpenVINO). demonstrates how to perform 3D object detection and classification using input data (point cloud) from a LIDAR sensor.
 * [Stable Diffusion](https://github.com/Stability-AI/stablediffusion) - This repository contains Stable Diffusion models trained from scratch and will be continuously updated with new checkpoints. 
-
+* [diffusers](https://github.com/pykeio/diffusers) - Pyke Diffusers is a modular Rust library for pretrained diffusion model inference to generate images using ONNX Runtime as a backend for accelerated generation on both CPUs and GPUs, including features like low memory usage and quantization. It offers an interactive stable diffusion demo and instructions on how to install and use the tool.
+* [stable_diffusion_arc](https://github.com/rahulunair/stable_diffusion_arc) - The project guide provides instructions on how to set up and run the stable diffusion inference model on Intel Arc GPUs.
+* [stable-diffusion-webui-arc-directml](https://github.com/Aloereed/stable-diffusion-webui-arc-directml) - The project involves a web UI for stable diffusion on Intel ARC with DirectML.
 
 ### AI - Data Science
+
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
 * [Drift Detection for Edge IoT Applications](https://github.com/blackout-ai/Face_Aging_Concept_Drift) - This concept drift project is run on video and image datasets such that we can calculate an overall precision and standard error. The concept drift detection technique finds True positives and False negatives using real and virtual drift detection. 
-* [fastRAG](https://github.com/IntelLabs/fastRAG) - Build and explore efficient retrieval-augmented generative models and applications. It's main goal is to make retrieval augmented generation as efficient as possible through the use of state-of-the-art and efficient retrieval and generative models.
 * [HIAS TassAI Facial Recognition Agent](https://github.com/AIIAL/HIAS-TassAI-Facial-Recognition-Agent) - Security is an important issue for hospitals and medical centers to consider. Today's Facial Recognition can provide ways of automating security in the medical industry reducing staffing costs and making medical facilities safer for both patients and staff.
 
-
-
 ### AI - Machine Learning
+
 * [DQRM](https://anonymous.4open.science/r/Deep_Quantized_Recommendation_Model_DQRM-6B4D) - Deep Quantized Recommendation Model (DQRM) is a recommendation framework that is small, powerful in inference, and efficient to train.
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 
 ### AI - Natural Language Processing
+
 * [Census](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/Census)  (Python based) Use Intel® Distribution of Modin to ingest and process U.S. census data from 1970 to 2010 in order to build a ridge regression based model to find the relation between education and the total income earned in the US.
 * [Gavin AI](https://github.com/Gavin-Development/GavinTraining) - Gavin AI is a project created by Scot_Survivor (Joshua Shiells) ShmarvDogg which aims to have English human like conversations through the use of AI and ML. Gavin works on the Transformer architecture however Performer FNet architectures are being investigated for better scaling.
 * [Language Identification](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/LanguageIdentification) (Python based) Trains a model to perform language identification using the Hugging Face Speechbrain library and CommonVoice dataset, and optimized with IPEX and INC.
-
+* [CTranslate2](https://github.com/OpenNMT/CTranslate2) - CTranslate2 is a C and Python library that optimizes inference with transformer models, supporting models trained in various frameworks. It implements various performance optimization techniques such as weights quantization, layers fusion, batch reordering, and more for benchmarks of transformer models on CPU and GPU.
+* [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) - Whisper ctranslate2 is a command-line client based on ctranslate2, compatible with original OpenAI client.
+* [hachi](https://github.com/ramanlabs-in/hachi) - Hachi is a locally hosted web app that enables natural language search for videos and images, using an AI-based machine learning model powered by OpenAI CLIP.
+* * [fastRAG](https://github.com/IntelLabs/fastRAG) - Build and explore efficient retrieval-augmented generative models and applications. It's main goal is to make retrieval augmented generation as efficient as possible through the use of state-of-the-art and efficient retrieval and generative models.
+* [ChatGPTCLIBot](https://github.com/LagPixelLOL/ChatGPTCLIBot) - The chatgpt cli bot allows the user to run GPT models such as GPT 3.5 and GPT 4, and switch between them using the config.json file.
 <!-- ### AI - NL -->
 
-### AI - Toolkits
+### AI - Frameworks & Toolkits
 
 * [AI Personal Identifiable Information Data Protection](https://github.com/oneapi-src/ai-data-protection) - Provides anonyimzation functions, which include methods for masking, hashing and encrypting/decrypting the PII data in large datasets. Can be used to protect the privacy and security of individuals in a dataset.
 * [AI Structured Data Generation](https://github.com/oneapi-src/ai-structured-data-generation) - Generate structured synthetic data for training and inferencing.
@@ -89,20 +93,60 @@ information, you can read up at https://oneapi.io/
 * [Vertical Search Engine](https://github.com/oneapi-src/vertical-search-engine) - Demonstrates a possible reference implementation of a deep learning based NLP pipeline for semantic search of an organization's document using a pre-trained model.
 * [Visual Process Discovery](https://github.com/oneapi-src/visual-process-discovery) - A reference kit implementing visual process discovery. VPDs can be used to enhance customer experience by providing personalized solutions knowing their needs as they navigate through a company's website.
 * [Visual Quality Inspection](https://github.com/oneapi-src/visual-quality-inspection) - Build a computer vision based model for building quality visual inspection based on a dataset from the pharma industry.
-
+* [webnn-native](https://github.com/webmachinelearning/webnn-native)- WebNN Native is an implementation of the Web Neural Network API, providing building blocks, headers, and backends for ML platforms including DirectML, OpenVINO, and XNNPACK.
+* [deeplearning4j](https://github.com/deeplearning4j/deeplearning4j) - The Eclipse DeepLearning4J ecosystem supports all the needs for JVM-based deep learning applications with various libraries
+* [deeplearning4j-examples](https://github.com/deeplearning4j/deeplearning4j-examples) - The Eclipse Deeplearning4j (DL4J) ecosystem is a set of projects that supports all the needs of a JVM-based deep learning application.
+* [pynufft](https://github.com/jyhmiinlin/pynufft) - The pynufft library is a Python package for non-uniform fast Fourier transform, based on a min-max interpolator, with experimental support for CuPy, PyTorch, and TensorFlow Eager mode
+* [models](https://github.com/onnx/models) - The ONNX Model Zoo is a collection of pre-trained, state-of-the-art machine learning models in the ONNX format. These models are contributed by community members and accompanied by Jupyter notebooks for model training and running inference with the trained model.
+* [neural-compressor](https://github.com/intel/neural-compressor) - Intel Neural Compressor is an open-source Python library for applying popular model compression techniques, such as pruning, quantization, sparsity, and distillation, on all mainstream deep learning frameworks and Intel extensions.
+* [ZenDNN](https://github.com/amd/ZenDNN) - Zen deep neural network library ZendNN is a powerful library for deep learning inference applications on AMD CPUs. It includes APIs for basic neural network building blocks and is optimized for AMD CPUs.
+* [DeepRec](https://github.com/DeepRec-AI/DeepRec) - DeepRec is a recommendation deep learning framework based on TensorFlow, which has been developed since 2016 and supports core businesses such as Taobao search recommendation and advertising.
+* [optimum-intel](https://github.com/huggingface/optimum-intel) - Optimum Intel is an interface between the Transformers and Diffusers libraries and Intel's different tools and libraries that help accelerate end-to-end pipelines on Intel architectures.
+* [intel-extension-for-tensorflow](https://github.com/intel/intel-extension-for-tensorflow) - Intel Extension for TensorFlow is a plugin based on TensorFlow PluggableDevice, which aims to bring devices such as Intel XPU, GPU, and CPU into TensorFlow.
+* [intel-extension-for-pytorch](https://github.com/intel/intel-extension-for-pytorch) - Intel Extension for PyTorch provides features optimizations for an extra performance boost on Intel hardware including CPUs and Discrete GPUs and offers easy GPU acceleration for Intel Discrete GPUs with PyTorch.
+* [intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers) - Intel Extension for Transformers is a toolkit designed to efficiently accelerate transformer-based models on Intel platforms, optimized for 4th gen Intel Xeon Scalable Processor (codename Sapphire Rapids).
+* [scikit-learn-intelex](https://github.com/intel/scikit-learn-intelex) - Intel r Extension for scikit learn is a free AI accelerator that can accelerate existing scikit learn code without the need to change the existing code. It offers patching and replacing the stock scikit learn algorithms with their optimized versions provided by the extension, which results in over 10-100x acceleration across a variety of applications.
+* [libxsmm](https://github.com/libxsmm/libxsmm) - Libxsmm is a library for dense and sparse matrix operations as well as deep learning primitives such as convolutions, targeting Intel architecture with AVX, AVX2, and future AMX extensions.
+* [shumai](https://github.com/facebookresearch/shumai) - The Shumai project is a differentiable tensor library for TypeScript and JavaScript built with Bun and Flashlight. It provides standard array utilities, gradients, and supported operators.
+* [pycaret](https://github.com/pycaret/pycaret) - PyCaret is an open-source, low-code machine learning library in Python that automates the machine learning workflow. It is an end-to-end machine learning and model management tool that replaces hundreds of lines of code with a few lines to make experiments exponentially fast and efficient.
+* [optimum](https://github.com/huggingface/optimum) - Optimum is an extension of Transformers and Diffusers that provides optimization tools for efficiency to train and run machine learning models on targeted hardware, while also being easy to use.
+* [flashlight](https://github.com/flashlight/flashlight)** - Flashlight is a machine learning library written in C and created by Facebook AI Research. It features internal APIs for tensor computation, high performance defaults using just-in-time kernel compilation, and scalability
 
 ### Autonomous Systems
+
 * [Alice](https://github.com/intel/dffml/tree/alice/entities/alice/) - We are writing a tutorial for an open source project on how we build an AI to work on the open source project as if she were a remote developer. Bit of a self fulfilling prophecy but who doesn't love an infinite loop now and again.
 
 ### Data Visualization and Rendering
+
 * [Substrate](https://github.com/seelabutk/substrate) - A toolset to help developers create and deploy cloud-based VaaS services (Visualization as a Service). Deployment targets include any platforms capable of running Docker Swarm, such as Amazon AWS, institutional clusters and even personal servers. Native for Python environment (pip installable).
 * [Blender](https://github.com/blender) - Blender is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline-modeling, rigging, animation, simulation, rendering, compositing, motion tracking and video editing.
+* [embree](https://github.com/embree/embree) - Embree is a high performance ray tracing library developed by Intel that targets graphics application developers to improve the performance of photo-realistic rendering applications. It includes various primitive types such as triangles, quads, grids, and curve primitives, and supports dynamic scenes. Embree also offers support for both CPUs and GPUs, while maintaining one code base to improve productivity and eliminate inconsistencies between the two versions of the renderer.
+* [ospray](https://github.com/ospray/ospray) - Ospray is an open source, scalable and portable ray tracing engine designed for high fidelity visualization on Intel architecture CPUs. It allows users to easily build interactive applications using ray-tracing based rendering for both surface and volume-based visualizations.
+* [vistle](https://github.com/vistle/vistle) - Vistle is a modular data-parallel visualization system. It requires a C++14 compatible compiler that supports ISO/IEC 14882:2014, alongside compiling requirements of Boost, CMake and MPI. Additionally, it supports Covise, OpenCover, OpenSceneGraph and Qt 5 libraries, and also provides support code, rendering libraries, controlling code for Vistle session and visualization algorithm modules.
+* [yocto-gl](https://github.com/xelatihy/yocto-gl) - Yocto GL is a collection of small C++17 libraries for building physically based graphics algorithms. Each library is split into smaller ones, making code navigation easier.
+* [ospray_studio](https://github.com/ospray/ospray_studio) - Ospray Studio is an open-source, interactive visualization and ray tracing application that utilizes Intel Ospray as its core rendering engine. Users can create scene graphs to render complex scenes with high-fidelity or very large scenes requiring supercomputing resources.
+* [redner](https://github.com/BachiLi/redner) - Redner is a differentiable renderer that can compute correct rendering gradients stochastically without approximation. It can simulate photons and produce realistic lighting phenomena, and handle the derivatives of these features correctly.
+* [ChameleonRT](https://github.com/Twinklebear/ChameleonRT) - ChameleonRT is an example path tracer that runs on multiple ray tracing backends including Embree, SYCL, DXR, Optix, Vulkan, Metal, and Ospray.
+* [openpgl](https://github.com/OpenPathGuidingLibrary/openpgl) - The Intel Open Path Guiding Library (Open PGL) implements path guiding into a renderer, offering implementations of current state-of-the-art path guiding methods which increase the sampling quality and renderer efficiency.
+* [tracer](https://github.com/JoshuaSenouf/tracer) - Tracer is a renderer that uses Embree and USD to produce photorealistic images using path tracing on the CPU, with features like subpixel jitter antialiasing, depth of field, and a variety of integrators.
+* [oidn](https://github.com/OpenImageDenoise/oidn) - Intel Open Image Denoise is an open-source library for image denoising in ray tracing rendering applications with high quality and performance, thanks to efficient deep learning-based filters that can be trained using the included toolkit and user-provided image datasets.
+* [hdospray](https://github.com/ospray/hdospray) - The ospray for hydra is an open-source plugin for Pixar's USD to extend the hydra rendering framework with Intel Ospray. It is highly optimized for Intel CPU architectures ranging from laptops to large-scale distributed HPC systems.
+* [f3d](https://github.com/f3d-app/f3d) - F3D is a fast and minimalist 3D viewer that supports multiple file formats and can show animations, supporting thumbnails and many rendering and texturing options including real-time physically based rendering and raytracing. 
+* [ml-hypersim](https://github.com/apple/ml-hypersim) - The HyperSim dataset is a photorealistic synthetic dataset for indoor scene understanding that includes dense per-pixel semantic instance segmentations and complete camera information for every image.
+* [fresnel](https://github.com/glotzerlab/fresnel) - Fresnel is a Python library for path tracing that can be used to generate high quality images in real time.
+* [point-cloud-utils](https://github.com/fwilliams/point-cloud-utils) - Point Cloud Utils (PCU) is an easy-to-use Python library for processing and manipulating 3D point clouds and meshes. It provides several algorithms for generating point samples on meshes, downsampling point clouds, and computing distances between point clouds.
+* [volppm](https://github.com/yumcyaWiz/volppm) - Volppm is a volumetric progressive photon mapping project that features homogeneous mediums for chromatic absorption and scattering coefficients.
+* [SORT](https://github.com/JiayinCao/SORT) - Sort is a cross platform physically based renderer that can be used as a standalone ray tracing program or as a renderer plugin for Blender.
+* [Brayns](https://github.com/BlueBrain/Brayns) - Brayns is a large scientific visualization platform based on CPU ray tracing, using an extension plugin architecture. It comes with several pre-made plugins, such as CircuitExplorer and MoleculeExplorer, and requires several dependencies to build
+* [Atrc](https://github.com/AirGuanZ/Atrc) - The ATRC offline rendering lab includes various features such as path tracing, photon mapping, and many material models. It has an optional integrated OIDN and Embree library and an interactive scene editor.
 
 ### Energy
 
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 
 ### Mathematics and Science
+
+* [mt-kahypar](https://github.com/kahypar/mt-kahypar) - MT-KaHyPar is a multi-threaded algorithm for partitioning graphs and hypergraphs. It aims to minimize an objective function defined on the hyperedges while balancing block sizes and optimizing connectivity. It can partition extremely large graphs and hypergraphs with comparable solution quality to the best sequential graph partitioners while being more than an order of magnitude faster with only ten threads.
 * [ACTS GPU Ramp](https://github.com/acts-project/traccc) - D Projects
 * [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
@@ -111,9 +155,19 @@ information, you can read up at https://oneapi.io/
 * [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
 * [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs 
 * [NAMD](https://www.ks.uiuc.edu/Research/namd/) is a parallel molecular dynamics code designed for high-performance simulation of large biomolecular systems.
+* [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
+* [arpack-ng](https://github.com/opencollab/arpack-ng)** - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
+* [gptoolbox](https://github.com/alecjacobson/gptoolbox) - This is a toolbox of useful MATLAB functions for geometry processing, constrained optimization and image processing. It contains several features such as mesh deformation, mesh parameterization, and discrete differential geometry operators for triangle and tetrahedral meshes.
+* [GeometricTools](https://github.com/davideberly/GeometricTools) - The Geometric Tools Engine (GTE) is a collection of source code for high-performance computing in mathematics, geometry, graphics, image analysis, and physics, using CPU multithreading and GPU programming.
+* [MF-LBM](https://github.com/lanl/MF-LBM) - This is a lattice Boltzmann code designed for direct numerical simulation of flow in porous media. It is written in Fortran 90 and optimized for vectorization and parallel programming.
+* [NWGraph](https://github.com/pnnl/NWGraph) - The Northwest Graph Library (NWGraph) is a high-performance header-only generic C++ graph library based on C++20 concepts and ranges. It includes multiple graph algorithms for well-known graph kernels and supporting data structures.
+* [PyPardisoProject](https://github.com/haasad/PyPardisoProject) - Pypardiso is a Python package for solving large sparse linear systems of equations using the Intel OneAPI Math Kernel Library Pardiso solver. It provides the same functionality as Scipy's spsolve but is faster in many cases.
+* [mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) - MapMap CPU is a massively parallel generic MRF map solver with minimal input assumptions, capable of solving a large class of MRF problems.
 
 ### Tools and Development
+
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
+* [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl) - The oneapi.jl GitHub project provides support for working with the oneapi unified programming model and offers low-level wrappers for the level zero library, kernel programming, and high-level array programming capabilities. 
 * [HPCToolKit](http://hpctoolkit.org/) - HPCToolkit is an open-source performance tool that is in some respects similar to VTune though it also works on Power and ARM architectures. It also works on NVIDIA and AMD GPUs. Our aim is to also use it for performance analysis of Intel GPUs with Intel’s OpenCL to our targets as a prelude to A0
 * [Kokkos](https://github.com/kokkos/kokkos) - Kokkos Core implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. For that purpose it provides abstractions for both parallel execution of code and data management. Kokkos is designed to target complex node architectures with N-level memory hierarchies and multiple types of execution resources. It currently can use CUDA, HIP, SYCL, HPX, OpenMP and C++ threads as backend programming models with several other backends in development.
 * [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA, SYCL, and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program.
@@ -122,7 +176,24 @@ information, you can read up at https://oneapi.io/
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM) - TornadoVM is an open-source software technology that automatically accelerates Java programs on multi-core CPUs GPUs and FPGAs.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
+* [RcppParallel](https://github.com/RcppCore/RcppParallel) - The rcppparallel project provides high-level functions for parallel programming with Rcpp and supports using Intel TBB for performance on Windows, macOS, and Linux systems.
+* [QSVEnc](https://github.com/rigaya/QSVEnc) - QSVenc is a software developed to investigate the performance and image quality of the hw encoder QSV of Intel. It is a command line version that runs independently and a plugin for AviUtl.
+* [sse2neon](https://github.com/DLTcollab/sse2neon) - SSE2NEON is a C++ header file that converts Intel SIMD Extensions intrinsics to ARM NEON intrinsics, shortening the time needed to get an ARM working program. The aim is to support SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, and AES extension. The project provides a unified interface for developing test cases to ensure accuracy
+* [Dockerfiles](https://github.com/OpenVisualCloud/Dockerfiles) - This repository contains Docker build files for software stacks and services designed for media delivery, media analytics, cloud gaming and graphics, and immersive media.
+* [oneapi-containers](https://github.com/intel/oneapi-containers) - The Intel OneAPI Containers simplify programming by delivering the tools to deploy applications and solutions on various architectures. These containers allow developers to set up and distribute environments for profiling and execute applications built with OneAPI toolkits.
+* [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
+* [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
+* [HeCBench](https://github.com/zjin-lcf/HeCBench) - The hecbench repository contains a collection of benchmarks for studying performance portability and productivity with various heterogeneous computing languages.The benchmarks are divided into categories like computer vision, bioinformatics, and finance.
+* [numba-dpex](https://github.com/IntelPython/numba-dpex) - Numba dpex is an extension for the Numba Python JIT compiler that provides a kernel programming API and an offload feature. It supports devices including Intel CPUs, integrated GPUs, and discrete GPUs.
+* [formulog](https://github.com/HarvardPL/formulog)** - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
 
+## Gaming
+* [NovelRT](https://github.com/novelrt/NovelRT) - NovelRT is a cross-platform game engine for visual novels and 2D games. It is still in the early alpha stage, but currently supports graphics and audio.
 <!-- ## Financial Services -->
 
-<!-- ## Manufacturing -->
+## Manufacturing
+* [S3_DeformFDM](https://github.com/zhangty019/S3_DeformFDM) - The S3 Slicer is a framework for achieving support-free strength reinforcement and surface quality in multi-axis 3D printing by computing the rotation-driven deformation for the input model.
+
+## Tutorials
+* [data-parallel-CPP](https://github.com/Apress/data-parallel-CPP) - The Data Parallel C Book Source Samples repository contains code that accompanies the Data Parallel C: Mastering DPC for Programming of Heterogeneous Systems using C++ and SYCL book. 
+* [50YearsOfRayTracing](https://github.com/neil3d/50YearsOfRayTracing) - This GitHub project is focused on ray tracing and covers several techniques and models developed from 1968 to 1997, with a focus on physically based rendering.
