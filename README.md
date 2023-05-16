@@ -95,12 +95,14 @@ https://oneapi.io/ for more information.
 * [intel-extension-for-transformers](https://github.com/intel/intel-extension-for-transformers) - Intel Extension for Transformers is a toolkit designed to efficiently accelerate transformer-based models on Intel platforms, optimized for 4th gen Intel Xeon Scalable Processor (codename Sapphire Rapids).
 * [intel-extension-for-pytorch](https://github.com/intel/intel-extension-for-pytorch) - Intel Extension for PyTorch provides features optimizations for an extra performance boost on Intel hardware including CPUs and Discrete GPUs and offers easy GPU acceleration for Intel Discrete GPUs with PyTorch.
 * [Invoice To Cash Automation](https://github.com/oneapi-src/invoice-to-cash-automation) - AI toolkit to extract information from claim documents to categorize the claims. Helps develop models to accelerate the resolution of accounts receivable claims for trade promotion deductions.
-* [Intelligent Indexing](https://github.com/oneapi-src/intelligent-indexing) - a reference kit to build an AI-based Natural Language Processing solution for classifying documents. 
+* [Intelligent Indexing](https://github.com/oneapi-src/intelligent-indexing) - A reference kit to build an AI-based Natural Language Processing solution for classifying documents.
+* [KernelAbstractions.jl](https://github.com/JuliaGPU/KernelAbstractions.jl) - KernelAbstractions (KA) is a package that enables you to write GPU-like kernels targetting different execution backends.  
 * [Loan Default Risk Prediction](https://github.com/oneapi-src/loan-default-risk-prediction) - Train and utilize an AI model using XGBoost to predict the probability of a loan default from client characteristics and the type of loan obligation.
 * [Medical Imaging Diagnostics](https://github.com/oneapi-src/medical-imaging-diagnostics) - Using machine learning and deep learning, train an AI algorithm that identifies images that warrant further attention to classify abnormalities.
 * [models](https://github.com/onnx/models) - The ONNX Model Zoo is a collection of pre-trained, state-of-the-art machine learning models in the ONNX format. These models are contributed by community members and accompanied by Jupyter notebooks for model training and running inference with the trained model.
 * [Network Intrusion Detection](https://github.com/oneapi-src/network-intrusion-detection) - A pattern based network intrusion system using oneAPI and machine learning.
 * [neural-compressor](https://github.com/intel/neural-compressor) - Intel Neural Compressor is an open-source Python library for applying popular model compression techniques, such as pruning, quantization, sparsity, and distillation, on all mainstream deep learning frameworks and Intel extensions.
+* [nnfusion](https://github.com/microsoft/nnfusion) - A flexible and efficient deep neural network (DNN) compiler that generates high-performance executable from a DNN model description.
 * [optimum](https://github.com/huggingface/optimum) - Optimum is an extension of Transformers and Diffusers that provides optimization tools for efficiency to train and run machine learning models on targeted hardware, while also being easy to use.
 * [optimum-intel](https://github.com/huggingface/optimum-intel) - Optimum Intel is an interface between the Transformers and Diffusers libraries and Intel's different tools and libraries that help accelerate end-to-end pipelines on Intel architectures.
 * [Order to Delivery Time Forecasting](https://github.com/oneapi-src/order-to-delivery-time-forecasting) - A machine learning based predictive model that provides delivery time forecasting for e-commerce platform.
@@ -206,10 +208,12 @@ https://oneapi.io/ for more information.
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
 
 ## Tutorials
+
 * [50YearsOfRayTracing](https://github.com/neil3d/50YearsOfRayTracing) - This GitHub project is focused on ray tracing and covers several techniques and models developed from 1968 to 1997, with a focus on physically based rendering.
 * [data-parallel-CPP](https://github.com/Apress/data-parallel-CPP) - The Data Parallel C Book Source Samples repository contains code that accompanies the Data Parallel C: Mastering DPC for Programming of Heterogeneous Systems using C++ and SYCL book.
 * [efficient-dl-systems](https://github.com/mryab/efficient-dl-systems) - This repository contains materials for the Efficient Deep Learning Systems course taught at the HSE University and Yandex School of Data Analysis.
 * [Jurassic](https://github.com/IntelSoftware/Jurassic) - Hunting Dinosaur bones using AI
+* [syclacademy](https://github.com/codeplaysoftware/syclacademy) - SYCL Academy, a set of learning materials for SYCL heterogeneous programming
 
 <!-- ## Financial Services -->
 
