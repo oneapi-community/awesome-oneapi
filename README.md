@@ -156,17 +156,19 @@ https://oneapi.io/ for more information.
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 
 ### Gaming
+
 * [NovelRT](https://github.com/novelrt/NovelRT) - NovelRT is a cross-platform game engine for visual novels and 2D games. It is still in the early alpha stage, but currently supports graphics and audio.
 
 ### Manufacturing
+
 * [S3_DeformFDM](https://github.com/zhangty019/S3_DeformFDM) - The S3 Slicer is a framework for achieving support-free strength reinforcement and surface quality in multi-axis 3D printing by computing the rotation-driven deformation for the input model.
 
 
 ### Mathematics and Science
 
 * [ACTS GPU Ramp](https://github.com/acts-project/traccc) - Demonstrator tracking chain on accelerators
-* [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
-* [arpack-ng](https://github.com/opencollab/arpack-ng) - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
+* [arpack-ng](https://github.com/opencollab/arpack-ng)** - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
+* [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.[arpack-ng](https://github.com/opencollab/arpack-ng)** - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
 * [Direction Field Visualization with Python](https://github.com/olutosinbanjo/direction_field) - This project demonstrates the visualization of a direction field with Python using the differential equation of a falling object as a case study.  The effectiveness of Heterogeneous Computing is also shown by exploring optimized libraries added functionalities in Intel® Distribution for Python.
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
@@ -187,10 +189,11 @@ https://oneapi.io/ for more information.
 
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
 * [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
-* [formulog](https://github.com/HarvardPL/formulog) - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
+* [formulog](https://github.com/HarvardPL/formulog)** - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
 * [HeCBench](https://github.com/zjin-lcf/HeCBench) - The hecbench repository contains a collection of benchmarks for studying performance portability and productivity with various heterogeneous computing languages.The benchmarks are divided into categories like computer vision, bioinformatics, and finance.
 * [HPCToolKit](http://hpctoolkit.org/) - HPCToolkit is an open-source performance tool that is in some respects similar to VTune though it also works on Power and ARM architectures. It also works on NVIDIA and AMD GPUs. Our aim is to also use it for performance analysis of Intel GPUs with Intel’s OpenCL to our targets as a prelude to A0
 * [Kokkos](https://github.com/kokkos/kokkos) - Kokkos Core implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. For that purpose it provides abstractions for both parallel execution of code and data management. Kokkos is designed to target complex node architectures with N-level memory hierarchies and multiple types of execution resources. It currently can use CUDA, HIP, SYCL, HPX, OpenMP and C++ threads as backend programming models with several other backends in development.
+* [libxsmm](https://github.com/libxsmm/libxsmm) - LIBXSMM is a library for specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions. 
 * [numba-dpex](https://github.com/IntelPython/numba-dpex) - Numba dpex is an extension for the Numba Python JIT compiler that provides a kernel programming API and an offload feature. It supports devices including Intel CPUs, integrated GPUs, and discrete GPUs.
 * [oneapi-containers](https://github.com/intel/oneapi-containers) - The Intel OneAPI Containers simplify programming by delivering the tools to deploy applications and solutions on various architectures. These containers allow developers to set up and distribute environments for profiling and execute applications built with OneAPI toolkits.
 * [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl) - The oneapi.jl GitHub project provides support for working with the oneapi unified programming model and offers low-level wrappers for the level zero library, kernel programming, and high-level array programming capabilities.
