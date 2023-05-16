@@ -1,13 +1,15 @@
 # awesome-oneapi
 An Awesome list of oneAPI projects
 
-A curated list of awesome oneAPI and SYCL projects for AI ahd HPC. Inspired by awesome-machine-learning.
+A curated list of awesome oneAPI and SYCL projects for AI and HPC. Inspired by awesome-machine-learning.
 
 ## What is oneAPI?
 
-oneAPI is a industry standard spec that enables hetrogenuous computing
-- letting you write once and support many accelerators. For more
-information, you can read up at https://oneapi.io/
+oneAPI is an open, cross-industry, standards-based, unified,
+multiarchitecture, multi-vendor programming model that delivers a common
+developer experience across accelerator architectures – for faster
+application performance, more productivity, and greater innovation. See,
+https://oneapi.io/ for more information.
 
 ## Table of Contents
 
@@ -19,11 +21,13 @@ information, you can read up at https://oneapi.io/
 6. [Autonomous Systems](#Autonomous-Systems)
 7. [Data Visualization and Rendering](#Data-Visualization-and-Rendering)
 8. [Energy](#Energy)
-9. [Mathematics and Science](#Mathematics-and-Science)
-10. [Tools & Development](#Tools-and-Development)
+9. [Gaming](#Gaming)
+10. [Manufacturing](#Manufacturing) 
+11. [Mathematics and Science](#Mathematics-and-Science)
+12. [Tools & Development](#Tools-and-Development)
 <!-- 11. [Financial Services](#Financial-Services) -->
-12. [Manufacturing](#Manufacturing)
-13. [Tutorials](#Tutorials)
+13. [Manufacturing](#Manufacturing)
+14. [Tutorials](#Tutorials)
 
 
 ### AI - Computer Vision
@@ -153,6 +157,13 @@ information, you can read up at https://oneapi.io/
 
 * [A DPC++ Backend for the OCCA Portability Framework](https://github.com/libocca/occa) - OCCA—an open source portable and vendor neutral framework for parallel programming on heterogeneous platforms—is used by mission critical computational science and engineering applications of public and private sector organizations including the U.S. Department of Energy and Shell.
 
+### Gaming
+* [NovelRT](https://github.com/novelrt/NovelRT) - NovelRT is a cross-platform game engine for visual novels and 2D games. It is still in the early alpha stage, but currently supports graphics and audio.
+
+### Manufacturing
+* [S3_DeformFDM](https://github.com/zhangty019/S3_DeformFDM) - The S3 Slicer is a framework for achieving support-free strength reinforcement and surface quality in multi-axis 3D printing by computing the rotation-driven deformation for the input model.
+
+
 ### Mathematics and Science
 
 * [ACTS GPU Ramp](https://github.com/acts-project/traccc) - Demonstrator tracking chain on accelerators
@@ -195,15 +206,11 @@ information, you can read up at https://oneapi.io/
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
 
-## Gaming
-* [NovelRT](https://github.com/novelrt/NovelRT) - NovelRT is a cross-platform game engine for visual novels and 2D games. It is still in the early alpha stage, but currently supports graphics and audio.
-<!-- ## Financial Services -->
-
-## Manufacturing
-* [S3_DeformFDM](https://github.com/zhangty019/S3_DeformFDM) - The S3 Slicer is a framework for achieving support-free strength reinforcement and surface quality in multi-axis 3D printing by computing the rotation-driven deformation for the input model.
-
 ## Tutorials
 * [50YearsOfRayTracing](https://github.com/neil3d/50YearsOfRayTracing) - This GitHub project is focused on ray tracing and covers several techniques and models developed from 1968 to 1997, with a focus on physically based rendering.
 * [data-parallel-CPP](https://github.com/Apress/data-parallel-CPP) - The Data Parallel C Book Source Samples repository contains code that accompanies the Data Parallel C: Mastering DPC for Programming of Heterogeneous Systems using C++ and SYCL book.
 * [efficient-dl-systems](https://github.com/mryab/efficient-dl-systems) - This repository contains materials for the Efficient Deep Learning Systems course taught at the HSE University and Yandex School of Data Analysis.
 * [Jurassic](https://github.com/IntelSoftware/Jurassic) - Hunting Dinosaur bones using AI
+
+<!-- ## Financial Services -->
+
