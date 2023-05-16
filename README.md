@@ -25,7 +25,6 @@ https://oneapi.io/ for more information.
 10. [Manufacturing](#Manufacturing) 
 11. [Mathematics and Science](#Mathematics-and-Science)
 12. [Tools & Development](#Tools-and-Development)
-<!-- 11. [Financial Services](#Financial-Services) -->
 13. [Tutorials](#Tutorials)
 
 
