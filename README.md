@@ -165,7 +165,6 @@ https://oneapi.io/ for more information.
 ### Mathematics and Science
 
 * [ACTS GPU Ramp](https://github.com/acts-project/traccc) - Demonstrator tracking chain on accelerators
-* [arpack-ng](https://github.com/opencollab/arpack-ng) - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
 * [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
 * [arpack-ng](https://github.com/opencollab/arpack-ng) - Arpack ng is a collection of Fortran77 subroutines designed to solve large scale eigenvalue problems and is a community project maintained by volunteers.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
