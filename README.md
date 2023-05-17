@@ -1,7 +1,7 @@
 # awesome-oneapi
 An Awesome list of oneAPI projects
 
-A curated list of awesome oneAPI and SYCL projects for AI and HPC. Inspired by awesome-machine-learning.
+A curated list of awesome oneAPI and SYCL projects for solutions across industry and community. Inspired by awesome-machine-learning.
 
 ## What is oneAPI?
 
