@@ -17,8 +17,7 @@ https://oneapi.io/ for more information.
 2. [AI - Data Science](#AI-\--Data-Science)
 3. [AI - Machine Learning](#AI-\--Machine-Learning)
 4. [AI - Natural Language Processing](#AI-\--Natural-Language-Processing)
-5. [AI - Toolkits](#AI-\--Toolkits)
-5. [AI - Frameworks & Toolkits](AI-\--\&-Toolkits)
+5. [AI - Frameworks & Toolkits](AI-\--and-Toolkits)
 6. [Autonomous Systems](#Autonomous-Systems)
 7. [Data Visualization and Rendering](#Data-Visualization-and-Rendering)
 8. [Energy](#Energy)
@@ -68,7 +67,7 @@ https://oneapi.io/ for more information.
 * [Language Identification](https://github.com/oneapi-src/oneAPI-samples/tree/master/AI-and-Analytics/End-to-end-Workloads/LanguageIdentification) (Python based) Trains a model to perform language identification using the Hugging Face Speechbrain library and CommonVoice dataset, and optimized with IPEX and INC.
 * [whisper-ctranslate2](https://github.com/Softcatala/whisper-ctranslate2) - Whisper ctranslate2 is a command-line client based on ctranslate2, compatible with original OpenAI client.
 
-### AI - Frameworks & Toolkits
+### AI - Frameworks and Toolkits
 
 * [AI Personal Identifiable Information Data Protection](https://github.com/oneapi-src/ai-data-protection) - Provides anonyimzation functions, which include methods for masking, hashing and encrypting/decrypting the PII data in large datasets. Can be used to protect the privacy and security of individuals in a dataset.
 * [AI Structured Data Generation](https://github.com/oneapi-src/ai-structured-data-generation) - Generate structured synthetic data for training and inferencing.
