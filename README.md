@@ -14,10 +14,11 @@ https://oneapi.io/ for more information.
 ## Table of Contents
 
 1. [AI - Computer Vision](#AI-\--Computer-Vision)
-2. [AI - Data Science](#AI-\-Data-Science)
+2. [AI - Data Science](#AI-\--Data-Science)
 3. [AI - Machine Learning](#AI-\--Machine-Learning)
 4. [AI - Natural Language Processing](#AI-\--Natural-Language-Processing)
 5. [AI - Toolkits](#AI-\--Toolkits)
+5. [AI - Frameworks & Toolkits](AI-\--\&-Toolkits)
 6. [Autonomous Systems](#Autonomous-Systems)
 7. [Data Visualization and Rendering](#Data-Visualization-and-Rendering)
 8. [Energy](#Energy)
