@@ -17,7 +17,7 @@ https://oneapi.io/ for more information.
 2. [AI - Data Science](#AI-\--Data-Science)
 3. [AI - Machine Learning](#AI-\--Machine-Learning)
 4. [AI - Natural Language Processing](#AI-\--Natural-Language-Processing)
-5. [AI - Frameworks and Toolkits](#AI-\--and-Toolkits)
+5. [AI - Frameworks and Toolkits](#AI-\--Frameworks-and-Toolkits)
 6. [Autonomous Systems](#Autonomous-Systems)
 7. [Data Visualization and Rendering](#Data-Visualization-and-Rendering)
 8. [Energy](#Energy)
