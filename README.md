@@ -13,7 +13,7 @@ https://oneapi.io/ for more information.
 
 ## Table of Contents
 
-1. [AI - Computer Vision](#AI-Computer-Vision)
+**1. [AI - Computer Vision](#AI--Computer-Vision)**
 2. [AI - Data Science](#AI-\--Data-Science)
 3. [AI - Machine Learning](#AI-\--Machine-Learning)
 4. [AI - Natural Language Processing](#AI-\--Natural-Language-Processing)
@@ -28,8 +28,8 @@ https://oneapi.io/ for more information.
 13. [Tutorials](#Tutorials)
 
 
-<div id="AI-Computer-Vision"/>
-### AI - Computer Vision
+<div id="AI--Computer-Vision"/>
+### AI - Computer Vision <a name="AI--Computer-Vision"/>
 
 * [BMW-IntelOpenVINO-Detection-Inference-API](https://github.com/BMW-InnovationLab/BMW-IntelOpenVINO-Detection-Inference-API) - This is a repository for an object detection inference API using OpenVINO, supporting both Windows and Linux operating systems
 * [Certiface Anti-Spoofing](https://github.com/cabelo/oneapi-antispoofing) - Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference. The system is capable of spotting fake faces and performing anti-face spoofing in face recognition systems.
