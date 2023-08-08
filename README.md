@@ -26,6 +26,7 @@ https://oneapi.io/ for more information.
 11. [Mathematics and Science](#Mathematics-and-Science)
 12. [Tools & Development](#Tools-and-Development) -->
 13. [Tutorials](#Tutorials)
+14. [Tutorials](#Tutorials)
 
 
 ### AI - Computer Vision
@@ -218,7 +219,7 @@ code to SYCL.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
 
-### Tutorials
+### Tutorials [](#){name=Tutorials}
 
 * [50YearsOfRayTracing](https://github.com/neil3d/50YearsOfRayTracing) - This GitHub project is focused on ray tracing and covers several techniques and models developed from 1968 to 1997, with a focus on physically based rendering.
 * [data-parallel-CPP](https://github.com/Apress/data-parallel-CPP) - The Data Parallel C Book Source Samples repository contains code that accompanies the Data Parallel C: Mastering DPC for Programming of Heterogeneous Systems using C++ and SYCL book.
