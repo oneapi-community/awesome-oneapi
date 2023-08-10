@@ -27,6 +27,7 @@ https://oneapi.io/ for more information.
 12. [Tools & Development](#Tools-and-Development)
 13. [Tutorials](#Tutorials)
 
+
 ### AI - Computer Vision
 
 * [BMW-IntelOpenVINO-Detection-Inference-API](https://github.com/BMW-InnovationLab/BMW-IntelOpenVINO-Detection-Inference-API) - This is a repository for an object detection inference API using OpenVINO, supporting both Windows and Linux operating systems
@@ -55,6 +56,7 @@ https://oneapi.io/ for more information.
 * [DQRM](https://anonymous.4open.science/r/Deep_Quantized_Recommendation_Model_DQRM-6B4D) - Deep Quantized Recommendation Model (DQRM) is a recommendation framework that is small, powerful in inference, and efficient to train.
 * [ort](https://github.com/pykeio/ort) - ort is an (unofficial) ONNX Runtime 1.15 wrapper for Rust based on the now inactive onnxruntime-rs. ONNX Runtime accelerates ML inference on both CPU & GPU.
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
+* [dpcpp-svm](https://github.com/floatshadow/dpcpp-svm) - A DPC++ version fo ThunderSVM. The mission of ThunderSVM is to help users easily and efficiently apply SVMs to solve problems. ThunderSVM exploits GPU and multi-core CPUs to achieve high efficiency. 
 
 ### AI - Natural Language Processing
 
