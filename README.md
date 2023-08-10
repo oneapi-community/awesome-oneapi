@@ -27,7 +27,6 @@ https://oneapi.io/ for more information.
 12. [Tools & Development](#Tools-and-Development)
 13. [Tutorials](#Tutorials)
 
-
 ### AI - Computer Vision
 
 * [BMW-IntelOpenVINO-Detection-Inference-API](https://github.com/BMW-InnovationLab/BMW-IntelOpenVINO-Detection-Inference-API) - This is a repository for an object detection inference API using OpenVINO, supporting both Windows and Linux operating systems
