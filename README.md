@@ -54,6 +54,7 @@ https://oneapi.io/ for more information.
 ### AI - Machine Learning
 
 * [DQRM](https://anonymous.4open.science/r/Deep_Quantized_Recommendation_Model_DQRM-6B4D) - Deep Quantized Recommendation Model (DQRM) is a recommendation framework that is small, powerful in inference, and efficient to train.
+* [ort](https://github.com/pykeio/ort) - ort is an (unofficial) ONNX Runtime 1.15 wrapper for Rust based on the now inactive onnxruntime-rs. ONNX Runtime accelerates ML inference on both CPU & GPU.
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 
 ### AI - Natural Language Processing
@@ -108,6 +109,7 @@ https://oneapi.io/ for more information.
 * [Order to Delivery Time Forecasting](https://github.com/oneapi-src/order-to-delivery-time-forecasting) - A machine learning based predictive model that provides delivery time forecasting for e-commerce platform.
 * [pipeline-server](https://github.com/dlstreamer/pipeline-server) - Intel Deep Learning Streamer (DL Streamer) is a Python package and microservice that supports the deployment of optimized media analytics pipelines. It includes customizable media analytics containers, APIs to monitor pipelines, no-code pipeline definitions, and deep learning model integration with openvino.
 * [Power Line Fault Detection](https://github.com/oneapi-src/powerline-fault-detection) - Process and analyze signals from a 3-phase power supply system used in power lines to predict whether or not a signal has a partial discharge using SciPy and NumPy calculations.
+* [PPLNN](https://github.com/openppl-public/ppl.nn) - PPLNN, which is short for "PPLNN is a Primitive Library for Neural Network", is a high-performance deep-learning inference engine for efficient AI inferencing. It can run various ONNX models and has better support for OpenMMLab.
 * [Predictive Asset Maintenance](https://github.com/oneapi-src/predictive-asset-health-analytics) - Shows an alternative method of using oneAPI AI Analytics Toolkit over the stock version of the same package like XGBoost.
 * [Product Recommedation](https://github.com/oneapi-src/product-recommendations) - A reference kit that demonstrates one way where AI can be used to build a recommendation system for an e-commerce business using scikit-learn and oneAPI.
 * [Purchase Prediction](https://github.com/oneapi-src/purchase-prediction) - A oneAPI based reference AI model that uses machine learning to predict purchases of customers.
@@ -128,6 +130,7 @@ https://oneapi.io/ for more information.
 ### Autonomous Systems
 
 * [Alice](https://github.com/intel/dffml/tree/alice/entities/alice/) - We are writing a tutorial for an open source project on how we build an AI to work on the open source project as if she were a remote developer. Bit of a self fulfilling prophecy but who doesn't love an infinite loop now and again.
+* [FreeChat](https://github.com/lm-sys/FastChat) - FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
 
 ### Data Visualization and Rendering
 
@@ -181,6 +184,7 @@ https://oneapi.io/ for more information.
 * [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
 * [GeometricTools](https://github.com/davideberly/GeometricTools) - The Geometric Tools Engine (GTE) is a collection of source code for high-performance computing in mathematics, geometry, graphics, image analysis, and physics, using CPU multithreading and GPU programming.
 * [gptoolbox](https://github.com/alecjacobson/gptoolbox) - This is a toolbox of useful MATLAB functions for geometry processing, constrained optimization and image processing. It contains several features such as mesh deformation, mesh parameterization, and discrete differential geometry operators for triangle and tetrahedral meshes.
+* [gtensor](https://github.com/wdmapp/gtensor) gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by xtensor, and designed to support the GPU port of the GENE fusion code.
 * [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs
 * [Jacobi Iterative Solver for Multi-GPU](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/DenseLinearAlgebra/guided_jacobi_iterative_gpu_optimization) - (C++ based, from Intel) Illustrates how to use the Jacobi Iterative method to solve linear equations. This sample starts with a CPU-oriented application and shows how to use SYCL to offload regions of the code to a GPU. The sample walks through developing an optimization strategy by iteratively optimizing the code and ultimately targetting multi-GPUs if available.
 * [LAMMPS](https://github.com/lammps/lammps) - AMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers.  It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL) version 2.
@@ -194,6 +198,7 @@ code to SYCL.
 * [Odd Even Merge and Sorting](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/1d_HeatTransfer) - (C++ based, from Intel) Demonstrates how to use the odd-even mergesort algorithm (also known as "Batcher's odd–even mergesort") which may benefit whenn working with  batches of short-sized to mid-sized (key, value) array pairs.  Shows how to migrate CUDA based code to SYCL.
 * [Optical Flow Method](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/guided_HSOpticalflow_SYCLMigration) - (C++ based, from Intel) The HSOpticalFlow sample is a computation of per-pixel motion estimation between two consecutive image frames caused by movement of object or camera. Shows how to migrate CUDA based code to SYCL.
 * [PyPardisoProject](https://github.com/haasad/PyPardisoProject) - Pypardiso is a Python package for solving large sparse linear systems of equations using the Intel OneAPI Math Kernel Library Pardiso solver. It provides the same functionality as Scipy's spsolve but is faster in many cases.
+[suanPan](https://github.com/TLCFEM/suanPan) - abacus suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
 
 ### Tools and Development
 
