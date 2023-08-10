@@ -27,7 +27,6 @@ https://oneapi.io/ for more information.
 12. [Tools & Development](#Tools-and-Development)
 13. [Tutorials](#Tutorials)
 
-
 ### AI - Computer Vision
 
 * [BMW-IntelOpenVINO-Detection-Inference-API](https://github.com/BMW-InnovationLab/BMW-IntelOpenVINO-Detection-Inference-API) - This is a repository for an object detection inference API using OpenVINO, supporting both Windows and Linux operating systems
@@ -130,7 +129,7 @@ https://oneapi.io/ for more information.
 ### Autonomous Systems
 
 * [Alice](https://github.com/intel/dffml/tree/alice/entities/alice/) - We are writing a tutorial for an open source project on how we build an AI to work on the open source project as if she were a remote developer. Bit of a self fulfilling prophecy but who doesn't love an infinite loop now and again.
-* [FreeChat](https://github.com/lm-sys/FastChat) - FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
+* [FastChat](https://github.com/lm-sys/FastChat) - FastChat is an open platform for training, serving, and evaluating large language model based chatbots.
 
 ### Data Visualization and Rendering
 
