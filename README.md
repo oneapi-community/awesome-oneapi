@@ -55,7 +55,7 @@ https://oneapi.io/ for more information.
 * [DQRM](https://anonymous.4open.science/r/Deep_Quantized_Recommendation_Model_DQRM-6B4D) - Deep Quantized Recommendation Model (DQRM) is a recommendation framework that is small, powerful in inference, and efficient to train.
 * [ort](https://github.com/pykeio/ort) - ort is an (unofficial) ONNX Runtime 1.15 wrapper for Rust based on the now inactive onnxruntime-rs. ONNX Runtime accelerates ML inference on both CPU & GPU.
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
-* [dpcpp-svm](https://github.com/floatshadow/dpcpp-svm) - A DPC++ version fo ThunderSVM. The mission of ThunderSVM is to help users easily and efficiently apply SVMs to solve problems. ThunderSVM exploits GPU and multi-core CPUs to achieve high efficiency. 
+* [dpcpp-svm](https://github.com/floatshadow/dpcpp-svm) - A DPC++ version of ThunderSVM. The mission of ThunderSVM is to help users easily and efficiently apply SVMs to solve problems. ThunderSVM exploits GPU and multi-core CPUs to achieve high efficiency. 
 
 ### AI - Natural Language Processing
 
@@ -199,7 +199,7 @@ code to SYCL.
 * [Odd Even Merge and Sorting](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/1d_HeatTransfer) - (C++ based, from Intel) Demonstrates how to use the odd-even mergesort algorithm (also known as "Batcher's odd–even mergesort") which may benefit whenn working with  batches of short-sized to mid-sized (key, value) array pairs.  Shows how to migrate CUDA based code to SYCL.
 * [Optical Flow Method](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/guided_HSOpticalflow_SYCLMigration) - (C++ based, from Intel) The HSOpticalFlow sample is a computation of per-pixel motion estimation between two consecutive image frames caused by movement of object or camera. Shows how to migrate CUDA based code to SYCL.
 * [PyPardisoProject](https://github.com/haasad/PyPardisoProject) - Pypardiso is a Python package for solving large sparse linear systems of equations using the Intel OneAPI Math Kernel Library Pardiso solver. It provides the same functionality as Scipy's spsolve but is faster in many cases.
-[suanPan](https://github.com/TLCFEM/suanPan) - abacus suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
+[suanPan](https://github.com/TLCFEM/suanPan) - suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
 
 ### Tools and Development
 
