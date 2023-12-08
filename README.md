@@ -11,6 +11,9 @@ developer experience across accelerator architectures – for faster
 application performance, more productivity, and greater innovation. See,
 https://oneapi.io/ for more information.
 
+##
+Explore the curated collection of top AI projects leveraging OpenVINO across diverse domains on [Awesome OpenVINO](https://github.com/openvinotoolkit/awesome-openvino).
+
 ## Table of Contents
 
 1. [AI - Computer Vision](#AI-\--Computer-Vision)
