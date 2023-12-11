@@ -208,6 +208,8 @@ code to SYCL.
 * [ArrayFire - Rust Bindings](https://github.com/arrayfire/arrayfire-rust) - Rust bindings for ArrayFire  a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
 * [amrex-sycl](https://github.com/farscape-project/amrex-sycl) - A SYCL plug-in to run AMReX apps on AMD/Nvidia GPUs. The plug-in consists of a build script and code patches which extend AMReX's SYCL capability beyond Intel GPUs.
 * [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
+Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on Windows and Linux
+* [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - 
 * [formulog](https://github.com/HarvardPL/formulog)** - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
 * [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by [xtensor](https://xtensor.readthedocs.io/en/latest/), and designed to support the GPU port of the [GENE](http://genecode.org/) fusion code.
 * [HeCBench](https://github.com/zjin-lcf/HeCBench) - The hecbench repository contains a collection of benchmarks for studying performance portability and productivity with various heterogeneous computing languages.The benchmarks are divided into categories like computer vision, bioinformatics, and finance.
@@ -222,8 +224,10 @@ code to SYCL.
 * [PySYCL](https://github.com/OsmanAEG/PySYCL) - SYCL functionalities within Python for GPU targetted development.
 * [QSVEnc](https://github.com/rigaya/QSVEnc) - QSVenc is a software developed to investigate the performance and image quality of the hw encoder QSV of Intel. It is a command line version that runs independently and a plugin for AviUtl.
 * [RcppParallel](https://github.com/RcppCore/RcppParallel) - The rcppparallel project provides high-level functions for parallel programming with Rcpp and supports using Intel TBB for performance on Windows, macOS, and Linux systems. 
+* [R-oneMKL](https://github.com/R-OneMKL/oneMKL) - The oneMKL package establishes the connection between the R environment and Intel oneAPI Math Kernel Library (oneMKL), a prerequisite of using oneMKL.MatrixCal package. Specifically, oneMKL provides necessary header files and dynamic library files to R, and imports files from the packages mkl, mkl-include, and intel-openmp from Anaconda. 
 * [Scal](https://devmesh.intel.com/projects/scalsale) - New physical scalable benchmark, namely ScalSALE, is based on the well-known SALE scheme. ScalSALE's main goal is to provide a gold-standard benchmark application that can incorporate multi-physical schemes while maintaining scalable and efficient execution times.
-* [Beehive SPIR-V Toolkit](https://github.com/beehive-lab/beehive-spirv-toolkit) - A programming framework for building SPIR-V binary modules from Java. This tool is intended to be used by compilers and runtimes systems to dynamically generate SPIR-V code. This toolkit fully supports SPIR-V 1.2, and it is currently used by the TornadoVM JIT compiler. 
+High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
+* [Spyker](https://github.com/ShahriarRezghi/Spyker) - 
 * [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
 * [SYnergy](https://github.com/unisa-hpc/SYnergy) -  Energy Measurement and Frequency Scaling for SYCL applications. 
 * [SYCLops](https://github.com/Huawei-PTLab/SYCLops) - A SYCL-specific LLVM-to-MLIR converter.
@@ -242,4 +246,7 @@ code to SYCL.
 * [syclacademy](https://github.com/codeplaysoftware/syclacademy) - SYCL Academy, a set of learning materials for SYCL heterogeneous programming
 
 <!-- ## Financial Services -->
+
+## Related Communities
+
 
