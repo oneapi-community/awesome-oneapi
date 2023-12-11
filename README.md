@@ -234,6 +234,7 @@ code to SYCL.
 * [RayBNN_Raytrace](https://github.com/BrosnanYuen/RayBNN_Raytrace) -  Ray tracing library using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI 
 * [RcppParallel](https://github.com/RcppCore/RcppParallel) - The rcppparallel project provides high-level functions for parallel programming with Rcpp and supports using Intel TBB for performance on Windows, macOS, and Linux systems. 
 * [Scal](https://devmesh.intel.com/projects/scalsale) - New physical scalable benchmark, namely ScalSALE, is based on the well-known SALE scheme. ScalSALE's main goal is to provide a gold-standard benchmark application that can incorporate multi-physical schemes while maintaining scalable and efficient execution times.
+* [Beehive SPIR-V Toolkit](https://github.com/beehive-lab/beehive-spirv-toolkit) - A programming framework for building SPIR-V binary modules from Java. This tool is intended to be used by compilers and runtimes systems to dynamically generate SPIR-V code. This toolkit fully supports SPIR-V 1.2, and it is currently used by the TornadoVM JIT compiler. 
 * [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
 * [SYnergy](https://github.com/unisa-hpc/SYnergy) -  Energy Measurement and Frequency Scaling for SYCL applications. 
 * [SYCLops](https://github.com/Huawei-PTLab/SYCLops) - A SYCL-specific LLVM-to-MLIR converter.
