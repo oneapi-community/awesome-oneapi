@@ -222,7 +222,7 @@ code to SYCL.
 * [amrex-sycl](https://github.com/farscape-project/amrex-sycl) - A SYCL plug-in to run AMReX apps on AMD/Nvidia GPUs. The plug-in consists of a build script and code patches which extend AMReX's SYCL capability beyond Intel GPUs.
 * [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
 Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on Windows and Linux
-* [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - 
+* [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library (oneMKL) on Windows and Linux.
 * [formulog](https://github.com/HarvardPL/formulog)** - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
 * [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by [xtensor](https://xtensor.readthedocs.io/en/latest/), and designed to support the GPU port of the [GENE](http://genecode.org/) fusion code.
 * [HeCBench](https://github.com/zjin-lcf/HeCBench) - The hecbench repository contains a collection of benchmarks for studying performance portability and productivity with various heterogeneous computing languages.The benchmarks are divided into categories like computer vision, bioinformatics, and finance.
@@ -244,7 +244,7 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [R-oneMKL](https://github.com/R-OneMKL/oneMKL) - The oneMKL package establishes the connection between the R environment and Intel oneAPI Math Kernel Library (oneMKL), a prerequisite of using oneMKL.MatrixCal package. Specifically, oneMKL provides necessary header files and dynamic library files to R, and imports files from the packages mkl, mkl-include, and intel-openmp from Anaconda. 
 * [Scal](https://devmesh.intel.com/projects/scalsale) - New physical scalable benchmark, namely ScalSALE, is based on the well-known SALE scheme. ScalSALE's main goal is to provide a gold-standard benchmark application that can incorporate multi-physical schemes while maintaining scalable and efficient execution times.
 High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
-* [Spyker](https://github.com/ShahriarRezghi/Spyker) - 
+* [Spyker](https://github.com/ShahriarRezghi/Spyker) - High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
 * [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
 * [SYnergy](https://github.com/unisa-hpc/SYnergy) -  Energy Measurement and Frequency Scaling for SYCL applications. 
 * [SYCLops](https://github.com/Huawei-PTLab/SYCLops) - A SYCL-specific LLVM-to-MLIR converter.
