@@ -256,4 +256,4 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 
 ## Related Communities
 
-
+Explore the curated collection of top AI projects leveraging OpenVINO across diverse domains on [Awesome OpenVINO](https://github.com/openvinotoolkit/awesome-openvino).
