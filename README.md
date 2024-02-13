@@ -207,7 +207,7 @@ code to SYCL.
 [suanPan](https://github.com/TLCFEM/suanPan) - suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
 
 ### Tools and Development
-
+* [JAX: Artificial Intelligence for everyone.](https://github.com/cabelo/jax) - JAX (Just an Artificial Intelligence Extended) is an optimized version of the openSUSE Linux image to work with oneAPI. This platform was designed to facilitate the access and development of AI applications.
 * [ArrayFire - oneAPI Backend](https://github.com/arrayfire/arrayfire) - ArrayFire is a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
 * [ArrayFire - Rust Bindings](https://github.com/arrayfire/arrayfire-rust) - Rust bindings for ArrayFire  a general-purpose tensor library that simplifies the process of software development for the parallel architectures found in CPUs GPUs and other hardware acceleration devices. This project is to develop a oneAPI backend to the library which currently supports CUDA OpenCL and x86.
 * [amrex-sycl](https://github.com/farscape-project/amrex-sycl) - A SYCL plug-in to run AMReX apps on AMD/Nvidia GPUs. The plug-in consists of a build script and code patches which extend AMReX's SYCL capability beyond Intel GPUs.
