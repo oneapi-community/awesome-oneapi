@@ -32,6 +32,7 @@ https://oneapi.io/ for more information.
 * [BMW-IntelOpenVINO-Detection-Inference-API](https://github.com/BMW-InnovationLab/BMW-IntelOpenVINO-Detection-Inference-API) - This is a repository for an object detection inference API using OpenVINO, supporting both Windows and Linux operating systems
 * [Certiface Anti-Spoofing](https://github.com/cabelo/oneapi-antispoofing) - Certiface AntiSpoofing use oneAPI for fast decode video for perform liveness detection with inference. The system is capable of spotting fake faces and performing anti-face spoofing in face recognition systems.
 * [diffusers](https://github.com/pykeio/diffusers) - Pyke Diffusers is a modular Rust library for pretrained diffusion model inference to generate images using ONNX Runtime as a backend for accelerated generation on both CPUs and GPUs, including features like low memory usage and quantization. It offers an interactive stable diffusion demo and instructions on how to install and use the tool.
+* [DPCPP-image-Blurring-with-SYCL](https://github.com/FriedImage/DPCPP-Image-Blurring-with-SYCL) - A program developed with DPC++ SYCL for parallelizing the Image Blurring process.
 * [Fast_Human_Pose_Estimation_Pytorch](https://github.com/yuanyuanli85/Fast_Human_Pose_Estimation_Pytorch) - This is an unofficial implementation for the paper "Fast Human Pose Estimation". The code mainly comes from the PyTorch implementation for Stacked Hourglass Network.
 * [gocv](https://github.com/hybridgroup/gocv) - The gocv package is a set of Go bindings for the OpenCV 4 computer vision library that supports the latest releases of Go and OpenCV v4.7.0 on Linux, macOS, and Windows.
 * [RapidOCR](https://github.com/RapidAI/RapidOCR) - This is the README for RapidOCR, a project that provides OCR tools and models for detecting text in images.
@@ -40,6 +41,7 @@ https://oneapi.io/ for more information.
 * [stable_diffusion_arc](https://github.com/rahulunair/stable_diffusion_arc) - The project guide provides instructions on how to set up and run the stable diffusion inference model on Intel Arc GPUs.
 * [stable-diffusion-webui-arc-directml](https://github.com/Aloereed/stable-diffusion-webui-arc-directml) - The project involves a web UI for stable diffusion on Intel ARC with DirectML.
 * [stable_diffusion.openvino](https://github.com/bes-dev/stable_diffusion.openvino) - This GitHub project provides an implementation of text-to-image generation using stable diffusion on Intel CPU or GPU. It requires Python 3.9.0 and is compatible with OpenVINO.
+* [visionicpp](https://github.com/codeplaysoftware/visioncpp) - A machine vision library written in SYCL and C++ that shows performance-portable implementation of graph algorithms
 * [yolov5_export_cpu](https://github.com/SamSamhuns/yolov5_export_cpu) - The project provides documentation on exporting YOLOv5 models for fast CPU inference using Intel's OpenVINO framework
 
 ### AI - Data Science
@@ -47,6 +49,7 @@ https://oneapi.io/ for more information.
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
 * [Drift Detection for Edge IoT Applications](https://github.com/blackout-ai/Face_Aging_Concept_Drift) - This concept drift project is run on video and image datasets such that we can calculate an overall precision and standard error. The concept drift detection technique finds True positives and False negatives using real and virtual drift detection. 
 * [HIAS TassAI Facial Recognition Agent](https://github.com/AIIAL/HIAS-TassAI-Facial-Recognition-Agent) - Security is an important issue for hospitals and medical centers to consider. Today's Facial Recognition can provide ways of automating security in the medical industry reducing staffing costs and making medical facilities safer for both patients and staff.
+* [root-experimental](https://github.com/jolly-chen/root/tree/gpu_histogram_bulk/tree/experimental) - Jolly Chen's fork of root.cern demnostrating porting RDataFrame to SYCL from CUDA.
 
 ### AI - Machine Learning
 
@@ -54,6 +57,8 @@ https://oneapi.io/ for more information.
 * [ort](https://github.com/pykeio/ort) - ort is an (unofficial) ONNX Runtime 1.15 wrapper for Rust based on the now inactive onnxruntime-rs. ONNX Runtime accelerates ML inference on both CPU & GPU.
 * [Performance and Portability Evaluation of the K-Means Algorithm on SYCL with CPU-GPU architectures](https://github.com/artecs-group/k-means) - This work uses the k-means algorithm to asses the performance portability of one of the most advanced implementations of the literature He-Vialle over different programming models (DPC++ CUDA OpenMP) and multi-vendor CPU-GPU architectures.
 * [dpcpp-svm](https://github.com/floatshadow/dpcpp-svm) - A DPC++ version of ThunderSVM. The mission of ThunderSVM is to help users easily and efficiently apply SVMs to solve problems. ThunderSVM exploits GPU and multi-core CPUs to achieve high efficiency. 
+* [PLSSVM](https://github.com/SC-SGS/PLSSVM) - Implementation of a parallel least squares support vector machine using multiple backends for different GPU vendors.
+
 
 ### AI - Natural Language Processing
 
@@ -106,6 +111,7 @@ https://oneapi.io/ for more information.
 * [optimum-intel](https://github.com/huggingface/optimum-intel) - Optimum Intel is an interface between the Transformers and Diffusers libraries and Intel's different tools and libraries that help accelerate end-to-end pipelines on Intel architectures.
 * [Order to Delivery Time Forecasting](https://github.com/oneapi-src/order-to-delivery-time-forecasting) - A machine learning based predictive model that provides delivery time forecasting for e-commerce platform.
 * [pipeline-server](https://github.com/dlstreamer/pipeline-server) - Intel Deep Learning Streamer (DL Streamer) is a Python package and microservice that supports the deployment of optimized media analytics pipelines. It includes customizable media analytics containers, APIs to monitor pipelines, no-code pipeline definitions, and deep learning model integration with openvino.
+* [portDNN](https://github.com/codeplaysoftware/portDNN) - portDNN is a library implementing neural network algorithms written using SYCL.
 * [Power Line Fault Detection](https://github.com/oneapi-src/powerline-fault-detection) - Process and analyze signals from a 3-phase power supply system used in power lines to predict whether or not a signal has a partial discharge using SciPy and NumPy calculations.
 * [PPLNN](https://github.com/openppl-public/ppl.nn) - PPLNN, which is short for "PPLNN is a Primitive Library for Neural Network", is a high-performance deep-learning inference engine for efficient AI inferencing. It can run various ONNX models and has better support for OpenMMLab.
 * [Predictive Asset Maintenance](https://github.com/oneapi-src/predictive-asset-health-analytics) - Shows an alternative method of using oneAPI AI Analytics Toolkit over the stock version of the same package like XGBoost.
@@ -170,6 +176,8 @@ https://oneapi.io/ for more information.
 ### Misc
 
 * [MuSYCL](https://github.com/keryell/muSYCL) - muSYCL, the SYCL musical! This is a small music synthesizer to experiment with C++23 programming, design patterns and acceleration on hardware accelerators like GPU, FPGA or CGRA with the SYCL 2020 standard.
+* [SYCL-samples](https://github.com/codeplaysoftware/SYCL-samples) - A collection of samples written using the SYCL standard for C++.
+
 
 ### Mathematics and Science
 
@@ -186,6 +194,7 @@ https://oneapi.io/ for more information.
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
 * [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
 * [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
+* [Grid](https://github.com/dbollweg/Grid.git) - Data parallel C++ mathematical object library.
 * [GeometricTools](https://github.com/davideberly/GeometricTools) - The Geometric Tools Engine (GTE) is a collection of source code for high-performance computing in mathematics, geometry, graphics, image analysis, and physics, using CPU multithreading and GPU programming.
 * [gptoolbox](https://github.com/alecjacobson/gptoolbox) - This is a toolbox of useful MATLAB functions for geometry processing, constrained optimization and image processing. It contains several features such as mesh deformation, mesh parameterization, and discrete differential geometry operators for triangle and tetrahedral meshes.
 * [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by xtensor, and designed to support the GPU port of the GENE fusion code.
@@ -202,10 +211,13 @@ code to SYCL.
 * [octotiger](https://github.com/STEllAR-GROUP/octotiger) - Octo-Tiger is an astrophysics program simulating the evolution of star systems based on the fast multipole method on adaptive Octrees. It was implemented using high-level C++ libraries, specifically HPX and Vc, which allows its use on different hardware platforms.
 * [Odd Even Merge and Sorting](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/1d_HeatTransfer) - (C++ based, from Intel) Demonstrates how to use the odd-even mergesort algorithm (also known as "Batcher's odd–even mergesort") which may benefit whenn working with  batches of short-sized to mid-sized (key, value) array pairs.  Shows how to migrate CUDA based code to SYCL.
 * [Optical Flow Method](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/StructuredGrids/guided_HSOpticalflow_SYCLMigration) - (C++ based, from Intel) The HSOpticalFlow sample is a computation of per-pixel motion estimation between two consecutive image frames caused by movement of object or camera. Shows how to migrate CUDA based code to SYCL.
+* [portBLAS](https://github.com/codeplaysoftware/portBLAS) - An implementation of BLAS using the SYCL open standard.
 * [PyPardisoProject](https://github.com/haasad/PyPardisoProject) - Pypardiso is a Python package for solving large sparse linear systems of equations using the Intel OneAPI Math Kernel Library Pardiso solver. It provides the same functionality as Scipy's spsolve but is faster in many cases.
+* [qmckl_sycl](https://github.com/elielnd/qmckl_sycl) - SYCL GPU port of the [QMCkl: Quantum Monte Carlo Kernel Library](https://github.com/TREX-CoE/qmckl). 
 * [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
 * [SPHinxXsys](https://github.com/Xiangyu-Hu/SPHinXsys) - SPHinXsys provides C++ APIs for physically accurate simulation and optimization. It aims to handle coupled industrial dynamic systems including fluid, solid, multi-body dynamics and beyond. The multi-physics library is based a unique and unified computational framework by which strong couplings have been achieved for all involved physics.
 [suanPan](https://github.com/TLCFEM/suanPan) - suanPan is a finite element method (FEM) simulation platform for applications in fields such as solid mechanics and civil/structural/seismic engineering. The name suanPan (in some places such as suffix it is also abbreviated as suPan) comes from the term Suan Pan (算盤), which is Chinese abacus.
+[sycl-collision-sim](https://github.com/rafbiels/sycl-collision-sim) - Demo 3D simulation of rigid body physics with different shapes bouncing off each other confined in a box. Two implementations are provided, one sequential with standard C++ code compiled for CPU, and parallel SYCL implementation which can be compiled for any target device (e.g. a GPU) supported by a SYCL compiler.
 
 ### Tools and Development
 * [JAX: Artificial Intelligence for everyone.](https://github.com/cabelo/jax) - JAX (Just an Artificial Intelligence Extended) is an optimized version of the openSUSE Linux image to work with oneAPI. This platform was designed to facilitate the access and development of AI applications.
@@ -215,26 +227,30 @@ code to SYCL.
 * [chip-spv](https://github.com/CHIP-SPV/chip-spv) - The "chip spv" project allows for the portability of HIP and CUDA applications to platforms supporting SPIR-V. Currently, it offers support for OpenCL and Level-Zero as low-level runtime alternatives.
 Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on Windows and Linux
 * [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library (oneMKL) on Windows and Linux.
+* [dpctl](https://github.com/IntelPython/dpctl) - Python SYCL bindings and SYCL-based Python Array API library.
 * [formulog](https://github.com/HarvardPL/formulog)** - Formulog is a logic programming language that supports Datalog, SMT queries, and first-order functional programming. It requires JRE 11 and a supported SMT solver, such as Z3, Boolector, CVC4, or Yices.
-* [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by [xtensor](https://xtensor.readthedocs.io/en/latest/), and designed to support the GPU port of the [GENE](http://genecode.org/) fusion code.
 * [HeCBench](https://github.com/zjin-lcf/HeCBench) - The hecbench repository contains a collection of benchmarks for studying performance portability and productivity with various heterogeneous computing languages.The benchmarks are divided into categories like computer vision, bioinformatics, and finance.
 * [HPCToolKit](http://hpctoolkit.org/) - HPCToolkit is an open-source performance tool that is in some respects similar to VTune though it also works on Power and ARM architectures. It also works on NVIDIA and AMD GPUs. Our aim is to also use it for performance analysis of Intel GPUs with Intel’s OpenCL to our targets as a prelude to A0
 * [kharma](https://github.com/AFD-Illinois/kharma) - Kokkos-based High-Accuracy Relativistic Magnetohydrodynamics with AMR. KHARMA is an implementation of the HARM scheme for gerneral relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR infrastructure, using Kokkos for parallelism and GPU support.
 * [Kokkos](https://github.com/kokkos/kokkos) - Kokkos Core implements a programming model in C++ for writing performance portable applications targeting all major HPC platforms. For that purpose it provides abstractions for both parallel execution of code and data management. Kokkos is designed to target complex node architectures with N-level memory hierarchies and multiple types of execution resources. It currently can use CUDA, HIP, SYCL, HPX, OpenMP and C++ threads as backend programming models with several other backends in development.
 * [levelzero-jni](https://github.com/beehive-lab/levelzero-jni) -  Intel LevelZero JNI library for TornadoVM. This project is a Java Native Interface (JNI) binding for Intel's Level Zero. This library is as designed to be as closed as possible to the LevelZero API for C++.
 * [libxsmm](https://github.com/libxsmm/libxsmm) - LIBXSMM is a library for specialized dense and sparse matrix operations as well as for deep learning primitives such as small convolutions. 
+* [mixbench](https://github.com/ekondis/mixbench) - A GPU benchmark tool for evaluating GPUs and CPUs on mixed operational intensity kernels (CUDA, OpenCL, HIP, SYCL, OpenMP)
 * [numba-dpex](https://github.com/IntelPython/numba-dpex) - Numba dpex is an extension for the Numba Python JIT compiler that provides a kernel programming API and an offload feature. It supports devices including Intel CPUs, integrated GPUs, and discrete GPUs.
+* [oneapi-asp](https://github.com/OFS/oneapi-asp) - Intel® oneAPI Accelerator Support Package (ASP) for Open FPGA Stack (OFS)
 * [oneapi-containers](https://github.com/intel/oneapi-containers) - The Intel OneAPI Containers simplify programming by delivering the tools to deploy applications and solutions on various architectures. These containers allow developers to set up and distribute environments for profiling and execute applications built with OneAPI toolkits.
 * [oneAPI.jl](https://github.com/JuliaGPU/oneAPI.jl) - The oneapi.jl GitHub project provides support for working with the oneapi unified programming model and offers low-level wrappers for the level zero library, kernel programming, and high-level array programming capabilities.
 * [Open-source Scientific Applications and Benchmarks](https://github.com/zjin-lcf/oneAPI-DirectProgramming) - This repository contains a collection of data-parallel programs for evaluating oneAPI direct programming. Each program is written with CUDA, SYCL, and OpenMP target offloading. Intel® DPC++ Compatibility Tool (DPCT) can convert a CUDA program to a SYCL program.
 * [OpenVisualCloud Dockerfiles](https://github.com/OpenVisualCloud/Dockerfiles) - This repository contains Docker build files for software stacks and services designed for media delivery, media analytics, cloud gaming and graphics, and immersive media.
 * [p2rng](https://github.com/arminms/p2rng) -  A modern header-only C++ library for parallel algorithmic (pseudo) random number generation supporting OpenMP, CUDA, ROCm and oneAPI.
-* [PySYCL](https://github.com/OsmanAEG/PySYCL) - SYCL functionalities within Python for GPU targetted development.
+* [PTXprofiler](https://github.com/ProjectPhysX/PTXprofiler) - A simple profiler to count Nvidia PTX assembly instructions of OpenCL/SYCL/CUDA kernels for roofline model analysis.
+* [PySYCL](https://gthub.com/PySYCL/PySYCL) - SYCL functionalities within Python for GPU targeted development.
 * [QSVEnc](https://github.com/rigaya/QSVEnc) - QSVenc is a software developed to investigate the performance and image quality of the hw encoder QSV of Intel. It is a command line version that runs independently and a plugin for AviUtl.
 * [RayBNN_Raytrace](https://github.com/BrosnanYuen/RayBNN_Raytrace) -  Ray tracing library using GPUs, CPUs, and FPGAs via CUDA, OpenCL, and oneAPI 
 * [RcppParallel](https://github.com/RcppCore/RcppParallel) - The rcppparallel project provides high-level functions for parallel programming with Rcpp and supports using Intel TBB for performance on Windows, macOS, and Linux systems. 
 * [R-oneMKL](https://github.com/R-OneMKL/oneMKL) - The oneMKL package establishes the connection between the R environment and Intel oneAPI Math Kernel Library (oneMKL), a prerequisite of using oneMKL.MatrixCal package. Specifically, oneMKL provides necessary header files and dynamic library files to R, and imports files from the packages mkl, mkl-include, and intel-openmp from Anaconda. 
 * [Scal](https://devmesh.intel.com/projects/scalsale) - New physical scalable benchmark, namely ScalSALE, is based on the well-known SALE scheme. ScalSALE's main goal is to provide a gold-standard benchmark application that can incorporate multi-physical schemes while maintaining scalable and efficient execution times.  High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
+* [SimSYCL](https://github.com/celerity/SimSYCL) - SimSYCL is a single-threaded, synchronous, library-only implementation of the SYCL 2020 specification. It enables you to test your SYCL applications against simulated hardware of different characteristics and discover bugs with its extensive verification capabilities.
 * [Spyker](https://github.com/ShahriarRezghi/Spyker) - High-performance Spiking Neural Networks Library Written From Scratch with C++ and Python Interfaces.
 * [SYCLomatic](https://github.com/oneapi-src/SYCLomatic) - The SycloMatic project helps developers migrate code to the SYCL heterogeneous programming model. Daily builds are available, but not rigorously tested for production quality control.
 * [SYnergy](https://github.com/unisa-hpc/SYnergy) -  Energy Measurement and Frequency Scaling for SYCL applications. 
@@ -243,6 +259,7 @@ Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library on
 * [TAU Performance System](https://github.com/UO-OACISS/tau2) - The TAU Performance System® supports profiling and tracing of programs written using the Intel OneAPI. Intel OneAPI provides two interfaces for programming - OpenCL and DPC++/SYCL for CPUs and GPUs. TAU supports both - the OpenCL profiling interface and Intel Level Zero API to observe performance. 
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM) - TornadoVM is an open-source software technology that automatically accelerates Java programs on multi-core CPUs GPUs and FPGAs.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
+* [XFluids](https://github.com/XFluids/XFluids) - a unified cross-architecture heterogeneous CFD solver that suports Nvidia, Amd and Intel GPUs.
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
 
 ## Tutorials
