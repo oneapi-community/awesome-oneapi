@@ -48,6 +48,7 @@ https://oneapi.io/ for more information.
 
 * [Boosting epistasis detection on Intel CPU+GPU systems](https://github.com/hiperbio/cross-dpc-episdet) - This work focuses on exploring the architecture of Intel CPUs and Integrated Graphics and their heterogeneous computing potential to boost performance and energy-efficiency of epistasis detection. This will be achieved making use of OpenCL Data Parallel C++ and OpenMP programming models.
 * [Drift Detection for Edge IoT Applications](https://github.com/blackout-ai/Face_Aging_Concept_Drift) - This concept drift project is run on video and image datasets such that we can calculate an overall precision and standard error. The concept drift detection technique finds True positives and False negatives using real and virtual drift detection. 
+* [Einsums](https://github.com/Einsums/Einsums) -  Provides compile-time contraction pattern analysis to determine optimal tensor operation to perform.
 * [HIAS TassAI Facial Recognition Agent](https://github.com/AIIAL/HIAS-TassAI-Facial-Recognition-Agent) - Security is an important issue for hospitals and medical centers to consider. Today's Facial Recognition can provide ways of automating security in the medical industry reducing staffing costs and making medical facilities safer for both patients and staff.
 * [root-experimental](https://github.com/jolly-chen/root/tree/gpu_histogram_bulk/tree/experimental) - Jolly Chen's fork of root.cern demnostrating porting RDataFrame to SYCL from CUDA.
 
@@ -178,6 +179,7 @@ https://oneapi.io/ for more information.
 ### Misc
 
 * [MuSYCL](https://github.com/keryell/muSYCL) - muSYCL, the SYCL musical! This is a small music synthesizer to experiment with C++23 programming, design patterns and acceleration on hardware accelerators like GPU, FPGA or CGRA with the SYCL 2020 standard.
+* [SOS](https://github.com/Sandia-OpenSHMEM/SOS) - Sandia OpenSHMEM is an implementation of the OpenSHMEM specification over multiple Networking APIs, including Portals 4, the Open Fabric Interface (OFI), and UCX. Please click on the Wiki tab for help with building and using SOS.
 * [SYCL-samples](https://github.com/codeplaysoftware/SYCL-samples) - A collection of samples written using the SYCL standard for C++.
 
 
@@ -190,9 +192,12 @@ https://oneapi.io/ for more information.
 * [Amber](https://ambermd.org/GetAmber.php) Amber is a high-performance molecular dynamics (MD) code used by thousands of scientists in academia, national labs, and industry for computational drug discovery and related research.
 * [ATLAS Charged Particle Seed Finding with DPC++](https://github.com/acts-project/acts) - The ATLAS Experiment is one of the general-purpose particle physics experiments built at the Large Hadron Collider (LHC) at CERN in Geneva. Its goal is to study the behavior of elementary particles at the highest energies ever produced in a laboratory help us better understand universe.
 * [bfs-sycl-fpga](https://github.com/kaanolgu/bfs-sycl-fpga) - The Breadth-First Search algorithm implementations _memoryBFS_ and _streamingBFS_ using Intel oneAPI (SYCL2020) on Intel FPGAs
+* [COGENT](https://github.com/LLNL/COGENT) - COGENT is a continuum (Eulerian) plasma simulation code.
 * [dedekind-MKL](https://github.com/stefan-zobel/dedekind-MKL) - Selected BLAS and LAPACK Java bindings for Intel's oneAPI Math Kernel Library (oneMKL) on Windows and Linux.
 * [Discrete Cosine Transform Imeage Compression](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/SpectralMethods/DiscreteCosineTransform) - (C++ based, from Intel) The Discrete Cosine Transform (DCT) sample demonstrates how DCT and Quantizing stages can be implemented to run faster using SYCL* by offloading image processing work to a GPU or other device.
 * [Direction Field Visualization with Python](https://github.com/olutosinbanjo/direction_field) - This project demonstrates the visualization of a direction field with Python using the differential equation of a falling object as a case study.  The effectiveness of Heterogeneous Computing is also shown by exploring optimized libraries added functionalities in Intel® Distribution for Python.
+* [DLA-Future](https://github.com/eth-cscs/DLA-Future) - DLA-Future is a distributed linear algebra library implemented using C++.
+* [WarpX](https://github.com/ECP-WarpX/WarpX) -  WarpX is an advanced electromagnetic & electrostatic Particle-In-Cell code.
 * [GinkgoOneAPI](https://github.com/ginkgo-project/ginkgo) - In this project we want to explore the potential of having an Intel OneAPI backend for the Gingko software package: https://ginkgo-project.github.io/
 * [GROMACS](https://www.gromacs.org/) A free and open-source software suite for high-performance molecular dynamics and output analysis.
 * [repulsive-surfaces](https://github.com/icethrush/repulsive-surfaces) - A numerical framework for optimization of surface geometry while avoiding (self-)collision.
@@ -201,6 +206,7 @@ https://oneapi.io/ for more information.
 * [gptoolbox](https://github.com/alecjacobson/gptoolbox) - This is a toolbox of useful MATLAB functions for geometry processing, constrained optimization and image processing. It contains several features such as mesh deformation, mesh parameterization, and discrete differential geometry operators for triangle and tetrahedral meshes.
 * [gtensor](https://github.com/wdmapp/gtensor) - gtensor is a multi-dimensional array C++14 header-only library for hybrid GPU development. It was inspired by xtensor, and designed to support the GPU port of the GENE fusion code.
 * [Homogeneous and Heterogeneous Implementations of a tridiagonal solver on Intel® Xeon® E-2176G with oneMKL getrs](https://github.com/olutosinbanjo/oneMKL_getrs.git) - Homogeneous and Heterogeneous implementations of a tridiagonal solver with oneMKL getrs
+* [hypre](https://github.com/hypre-space/hypre) - Parallel solvers for sparse linear systems featuring multigrid methods.
 * [Jacobi Iterative Solver for Multi-GPU](https://github.com/oneapi-src/oneAPI-samples/tree/master/DirectProgramming/C%2B%2BSYCL/DenseLinearAlgebra/guided_jacobi_iterative_gpu_optimization) - (C++ based, from Intel) Illustrates how to use the Jacobi Iterative method to solve linear equations. This sample starts with a CPU-oriented application and shows how to use SYCL to offload regions of the code to a GPU. The sample walks through developing an optimization strategy by iteratively optimizing the code and ultimately targetting multi-GPUs if available.
 * [LAMMPS](https://github.com/lammps/lammps) - LAMMPS is a classical molecular dynamics simulation code designed to run efficiently on parallel computers.  It was developed at Sandia National Laboratories, a US Department of Energy facility, with funding from the DOE.  It is an open-source code, distributed freely under the terms of the GNU Public License (GPL) version 2.
 * [mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) - MapMap CPU is a massively parallel generic MRF map solver with minimal input assumptions, capable of solving a large class of MRF problems.
@@ -227,6 +233,7 @@ code to SYCL.
 * [STRUMPACK](https://github.com/pghysels/STRUMPACK) - Structured Matrix Package (LBNL)
 * [sycl-collision-sim](https://github.com/rafbiels/sycl-collision-sim) - Demo 3D simulation of rigid body physics with different shapes bouncing off each other confined in a box. Two implementations are provided, one sequential with standard C++ code compiled for CPU, and parallel SYCL implementation which can be compiled for any target device (e.g. a GPU) supported by a SYCL compiler.
 * [TAMM](https://github.com/NWChemEx/TAMM) - Tensor Algebra for Many-body Methods (TAMM) is a framework for productive and performance-portable development of scalable computational chemistry methods. 
+* [TASMANIAN](https://github.com/ORNL/TASMANIAN) -  The Toolkit for Adaptive Stochastic Modeling and Non-Intrusive Approximation
 
 ### Tools and Development
 * [Birch](https://github.com/lawmurray/Birch) - RMG is an Open Source code for electronic structure calculations and modeling of materials and molecules. It is based on density functional theory and uses a real space basis and pseudopotentials.
@@ -271,6 +278,7 @@ code to SYCL.
 * [TAU Performance System](https://github.com/UO-OACISS/tau2) - The TAU Performance System® supports profiling and tracing of programs written using the Intel OneAPI. Intel OneAPI provides two interfaces for programming - OpenCL and DPC++/SYCL for CPUs and GPUs. TAU supports both - the OpenCL profiling interface and Intel Level Zero API to observe performance. 
 * [TornadoVM](https://github.com/beehive-lab/TornadoVM) - TornadoVM is an open-source software technology that automatically accelerates Java programs on multi-core CPUs GPUs and FPGAs.
 * [toyBrot](https://gitlab.com/VileLasagna/toyBrot) - toyBrot is a raymarching fractal generator that is used both as a  simple benchmarking tool and a study tool for parallelisation. The code is is implemented with over 10 different technologies including Intel TBB ISPC and SYCL (with support for oneAPI)
+* [Trilinos](https://github.com/trilinos/Trilinos) - The Trilinos Project is a community of developers, users and user-developers focused on collaborative creation of algorithms and enabling technologies within an object-oriented software framework for the solution of large-scale, complex multi-physics engineering and scientific problems on new and emerging high-performance computing (HPC) architectures.
 * [XFluids](https://github.com/XFluids/XFluids) - a unified cross-architecture heterogeneous CFD solver that suports Nvidia, Amd and Intel GPUs.
 * [ZFP](https://github.com/LLNL/zfp) - zfp is a compressed format for representing multidimensional floating-point and integer arrays. zfp provides compressed-array classes that support high throughput read and write random access to individual array elements. zfp also supports serial and parallel compression of whole arrays for applications that read and write large data sets to and from disk.
 
